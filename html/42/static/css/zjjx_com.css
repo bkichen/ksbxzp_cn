@@ -1,0 +1,103 @@
+.zjjx_bnr{
+    width: 100%;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+  }
+  .zjjx_bnr_phone{
+    display: none;
+}
+  .zjjx_bnr img {
+      object-fit: cover;
+  }
+  .zjjx_mark{
+      width:100%;
+      height: 640px;
+      background-color: rgba(0,0,0,0.2);
+        z-index: 2;
+        position: absolute;
+        left: 0;
+        top: 0px;
+
+  }
+  .zjjx_m_wrap {
+      width:1170px;
+      padding:0 15px;
+      margin:0 auto;
+      padding-top:260px;
+
+  }
+  .z_p_b_p1{
+    font-size: 48px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    line-height: 67px;
+    color: #FFFFFF;
+    margin-bottom:24px;
+  }
+  .z_p_b_p2{
+    font-size: 20px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+    letter-spacing: 10px;
+  }
+  .zjjx_p_nav{
+    width:100%;
+    height:70px;
+    border-bottom:1px solid  #E6E6E6;
+  }
+  .zjjx_p_ul{
+    width:1200px;
+    padding:0 15px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+   .zjjx_p_ul li {border-bottom: 2px solid transparent}
+  .zjjx_p_ul li a{
+    font-size: 20px;
+    font-family: PingFang SC;
+    font-weight: 500;
+    line-height: 68px;
+    color: #303133;
+  }
+  .zjjx_p_ul li:hover{
+        border-bottom:2px solid #0066B3;
+  }
+  .zjjx_p_ul li.nav-itemactive{
+         border-bottom:2px solid #0066B3;
+  }
+  @media screen and (max-width: 750px) {
+    .zjjx_bnr{
+        display: none;
+    }
+    .zjjx_bnr_phone {
+        display: block;
+        overflow:hidden;
+        height:21.875rem;
+
+    }
+    .zjjx_bnr_phone img{
+        width: 100%;
+        min-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .zjjx_bnr_phone .zjjx_mark .zjjx_m_wrap{
+        width: 100%;
+        padding: 0 1.875rem;
+        margin: 0 auto;
+    }
+    .zjjx_bnr_phone .zjjx_mark .zjjx_m_wrap .z_p_b_p1{
+        font-size: 1.375rem;
+        font-weight: 500;
+        line-height: 3.4375rem;
+    }
+    .zjjx_bnr_phone .zjjx_mark .zjjx_m_wrap .z_p_b_p2 {
+        font-size: 0.875rem;
+    }
+
+  }

@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/PL_style.css">
+    <!--头部-->
+    
+<!-- 公共头部引用 -->
+<link rel="stylesheet" href="../static/css/all.css">
+<link rel="stylesheet" href="../static/css/header.css">
+<link rel="stylesheet" href="../static/css/index.css">
+<link rel="stylesheet" href="../static/css/swiper.min.css">
+<meta name="format-detection" content="telephone=no">
+<script src="../static/js/jquery-1.12.4.min.js"></script>
+<script src="../static/js/swiper.min.js"></script>
+<script src="../static/js/waypoints.min.js"></script>
+<script src="../static/js/jquery.counterup.js"></script>
+<script src="../static/js/quickfill.js"></script>
+<script src="../static/js/objectFitPolyfill.js"></script>
+
+<script src="https://jxkf.ksbxzp.cn:22601/mcs.js?v=2&id=ndlyzwf4ogkzcq&appName=jxrs451&appChannel=20008" defer="" async=""></script>
+
+<script> 
+window.branch = '/html/42/static/data/branch.json'
+</script>
+<script src="../../6039/static/js/footer.js"></script>
+<!-- IE 10  -->
+<script src="../../6039/static/js/IE10.js"></script>
+<!-- <script src="https://unpkg.com/vconsole/dist/vconsole.min.js"></script>
+<script>
+// VConsole will be exported to `window.VConsole` by default.
+var vConsole = new window.VConsole();
+</script> -->
+
+    <script src="../static/js/PL_page.js"></script>
+
+   <title>昆山保险人寿</title>
+    <style type="text/css">
+        * {
+            font-family: "PingFang SC";
+        }
+
+        .tab-cont:not(:last-child) {
+            margin-bottom: 60px;
+        }
+
+        .bxdjt-main .title {
+            font-size: 32px;
+            padding: 60px 0 30px 0;
+            font-weight: 500;
+            line-height: 45px;
+            color: #303133;
+        }
+
+        .tab-cont .title {
+            padding: 30px 0;
+        }
+
+        .tab-cont .title:not(:first-child) {
+            margin-top: 30px;
+        }
+
+        .bxdjt-main .title .title-font {
+            margin-right: 24px;
+        }
+
+        .tab-head {
+            border-bottom: 1px solid #e6e6e6;
+        }
+
+        .tab-head span {
+            margin-right: 65px;
+            font-size: 18px;
+            display: inline-block;
+            padding: 16px 0;
+            font-weight: 500;
+            line-height: 32px;
+            color: #303133;
+            cursor: pointer;
+        }
+
+        .tab-active {
+            position: relative;
+            bottom: -1px;
+            border-bottom: 2px solid #0066b3 !important;
+        }
+
+        .tab-content .tab-cont-syjs .little-subTitle {
+            font-size: 18px;
+            font-weight: 400;
+            color: #9da1a9;
+            line-height: 32px;
+            margin: 10px 0 30px 0;
+        }
+
+        .tab-content .tab-cont-syjs h2 {
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px;
+            color: #303133;
+            margin-top: 30px;
+        }
+
+        .tab-content .tab-cont-syjs {
+            font-size: 16px;
+            color: #6a6d72;
+            line-height: 32px;
+            font-weight: 400;
+            margin-bottom: 60px;
+        }
+
+        .tab-content .tab-cont-syjs .little-subTitle>span:first-child::after {
+            content: '　|　';
+            display: inline;
+        }
+
+        /* 服务案例 */
+        .tab-cont-fwal .little-title {
+            font-size: 24px;
+            font-weight: 500;
+            color: #303133;
+            margin: 30px 0;
+        }
+
+        .bxdjt-main .article-list span {
+            text-decoration: none;
+            font-size: 16px;
+            color: #6a6d72;
+        }
+
+        .bxdjt-main .article-list p:hover {
+            background: rgba(133, 197, 255, 0.2);
+        }
+
+        .bxdjt-main .article-list p {
+            height: 140px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 30px;
+        }
+
+        .bxdjt-main .article-list .block {
+            width: 116px;
+            height: 116px;
+            border: 1px solid #ff6600;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .bxdjt-main .article-list .block .number {
+            font-size: 64px;
+            line-height: 50px;
+            color: #ff6600;
+        }
+
+        .bxdjt-main .article-list .block .time {
+            font-size: 16px;
+            color: #ff6600;
+        }
+
+        .bxdjt-main .article-list .title {
+            width: 820px;
+            line-height: 32px;
+            padding: 0 20px;
+            margin-top: 0;
+        }
+        .bxdjt-main .article-list .subTitle-font,
+        .bxdjt-main .article-list .title-font {
+            white-space: nowrap;
+    overflow: hidden;
+    width: 850px;
+        }
+        .bxdjt-main .article-list .title-font {
+            display: inline-block;
+            font-size: 18px;
+            text-overflow: ellipsis;
+
+            font-weight: 500;
+            line-height: 32px;
+            color: #303133;
+            padding-bottom: 5px;
+        }
+
+        .bxdjt-main .article-list .subTitle-font {
+            display: inline-block;
+            font-weight: 400;
+            line-height: 32px;
+            color: #888e9a;
+            padding-top: 5px;
+        }
+
+        .bxdjt-main .article-list .icon img {
+            display: inline-block;
+            width: 44px;
+        }
+
+        .bxdjt-main .article-list .icon .blueImg {
+            display: none;
+        }
+
+        .bxdjt-main .article-list p:hover .grayImg {
+            display: none;
+        }
+
+        .bxdjt-main .article-list p:hover .blueImg {
+            display: inline-block;
+        }
+
+        @media only screen and (max-width: 750px) {
+            .bxdjt-main .title {
+                font-size: 1.125rem;
+                padding: 1.875rem 0 0 0;
+            }
+
+            .w_170 {
+                padding: 0 0.94rem;
+                box-sizing: border-box;
+            }
+
+            .tab-head {
+                display: flex;
+                flex-flow: nowrap;
+                overflow-x: auto;
+            }
+
+            .tab-head span {
+                margin-right: 1rem;
+                font-size: 0.875rem;
+                line-height: 0;
+                min-width: 95px;
+                text-align: center;
+            }
+
+            .tab-content .tab-cont-syjs h2 {
+                font-size: 1.125rem;
+            }
+
+            .tab-content .tab-cont-syjs .little-subTitle {
+                font-size: 0.69rem;
+                line-height: 0.69rem;
+                margin: 1rem 0;
+            }
+
+            .little-desc {
+                font-size: 0.75rem;
+            }
+
+            .d-subTitle {
+                font-size: 0.69rem;
+                color: #9DA1A9;
+            }
+
+            .tab-cont-fwal .little-title {
+                font-size: 1.125rem;
+                margin: 0.94rem 0;
+            }
+
+            .bxdjt-main .article-list p {
+                padding: 0;
+                position: relative;
+            }
+
+            .bxdjt-main .article-list .title {
+                width: 13.125rem;
+                position: absolute;
+                top: 0.5rem;
+                right: -1rem;
+            }
+
+            .bxdjt-main .article-list .title-font {
+                font-size: 0.875rem;
+                width: 100%;
+                padding-bottom: 0;
+                display: block;
+            }
+
+            .bxdjt-main .article-list .subTitle-font {
+                font-size: 0.75rem;
+                height: 2.5rem;
+                padding: 0;
+                line-height: 1.2rem;
+                display: block;
+                white-space: normal;
+                position: absolute;
+                width: 80%;
+                top: 2.5rem;
+            }
+
+            .bxdjt-main .article-list .icon img {
+                width: 1.625rem;
+                position: absolute;
+                top: 5.8rem;
+                right: 11.875rem;
+            }
+
+            .tile-br {
+                display: none;
+            }
+        }
+    </style>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+    <header class="header">
+	<div class="used_div">
+	  <a href="../../../index1.html">回到旧版></a>
+	</div>
+	<div class="header-logo">
+		<a href="../../../index.html">
+			<img class="jx-logo whiteLogo" src="../static/image/white_logo.png">
+			<img style="display: none;" class="jx-logo blueLogo" src="../static/image/white_logo.png">
+		</a>
+	</div>
+	<div class="header-list">
+		<a href="../88/index.html" class="menu0">
+			<span>走进昆山保险</span>
+		</a><a href="../../../elife/index.html#/home?timestamp=1622002855826&amp;timestamp=1622002888480" class="menu1">
+			<span>保险商城</span>
+		</a><a href="../75/index.html" class="menu2">
+			<span>服务中心</span>
+		</a><a href="../112/index.html" class="menu3">
+			<span>保险业务</span>
+		</a><a href="../77/index.html" class="menu4">
+			<span>公开信息披露</span>
+		</a><a href="../78/index.html" class="menu5">
+			<span>社会责任</span>
+		</a><a href="../79/index.html" class="menu6">
+			<span>人才招聘</span>
+		</a>
+		<a href="../2654/index.html" target="_blank" class="menu7">
+			<img class="jx-search whiteSearch" src="../static/image/jx_search.png">
+			<img style="display: none;" class="jx-search blackSearch" src="../static/image/jx_b_search.png">
+		</a>
+	</div>
+	<div style="width: 120px;  display: flex; justify-content: space-between;">
+	  <a href="../2654/index.html" target="_blank" class="menu8">
+		<span>登录</span>
+	</a>
+	<a href="../2654/index.html" target="_blank" class="menu9">
+		<span>注册</span>
+	</a>
+	</div>
+  </header>
+  
+  <div class="list-content">
+	<div class="list-content-detail">
+		<div class="approach-jx public">
+			<img class="approach" src="../static/image/zjjx_nav.png">
+			<div class="approach-right">
+				
+					<a href="../88/index.html" class="approach-title">
+						 <span>公司简介</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a><a href="../82/index.html" class="approach-title">
+						 <span>公司股东</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a><a href="../83/index.html" class="approach-title">
+						 <span>公司品牌</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a><a href="../146/index.html" class="approach-title">
+						 <span>企业文化</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a><a href="../161/index.html" class="approach-title">
+						 <span>公司动态</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a><a href="../87/index.html" class="approach-title">
+						 <span>联系我们</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a><a href="../86/index.html" class="approach-title">
+						 <span>集中采购公告</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a><a href="../85/index.html" class="approach-title">
+						 <span>奖项荣誉</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a><a href="../89/index.html" class="approach-title">
+						 <span>社会责任报告</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a>
+				
+			</div>
+		</div>
+  
+		<div class="public insurance-shop">
+			<p>产品分类</p>
+			<div class="security">
+			  <a href="../../../elife/index.html#/product/list/tag=5">
+			<div>
+			  <img style="display: block;" src="../static/image/yw_jkbx.png">
+			  <span style="display: block;text-align: center;color: #6A6D72;margin-top: 10px;">健康寿险</span>
+			</div>
+			  </a>
+			  <a href="../../../elife/index.html#/product/list/tag=2">
+			<div>
+			  <img style="display: block;" src="../static/image/yw_lxpa.png">
+			  <span style="display: block;text-align: center;color: #6A6D72;margin-top: 10px;">旅行保障</span>
+			</div>
+			  </a>
+			  <a href="../../../elife/index.html#/product/list/tag=4">
+			<div>
+			  <img style="display: block;" src="../static/image/yw_ylnj.png">
+			  <span style="display: block;text-align: center;color: #6A6D72;margin-top: 10px;">养老年金</span>
+			</div>
+			  </a>
+			  <a href="../../../elife/index.html#/product/list/tag=3">
+			<div>
+			  <img style="display: block;" src="../static/image/bzgn_srbx.png">
+			  <span style="display: block;text-align: center;color: #6A6D72;margin-top: 10px;">少儿保险</span>
+			</div>
+			  </a>
+			  <a href="../../../elife/index.html#/product/list/tag=1">
+			<div>
+			  <img style="display: block;" src="../static/image/bxsc-cfgl.png">
+			  <span style="display: block;text-align: center;color: #6A6D72;margin-top: 10px;">财富管理</span>
+			</div>
+			  </a>
+			</div>
+		</div>
+  
+		<div class="public service-center">
+			<div class="service-header">
+				<a href="../75/index.html#online" class="service-active">
+					<span>在线服务</span>
+					<p class="arrow-down" style="display: block;"></p>
+				</a>
+				<a href="../75/index.html#question">
+					<p class="arrow-down" style="display: none;"></p>
+					<span>常见问题</span>
+				</a>
+				<a href="../75/index.html#11">
+					<span>增值服务</span>
+					<!-- <p class="arrow-down" style="display: none;"></p> -->
+				</a>
+			</div>
+  
+			<div class="service-footer service-footer1" style="display: flex;">
+				<a href="../../../elife/index.html#/user/my-policy" class="fw_a">
+					<img class="ser_icon" src="../static/image/bdcx_icon.png">
+					<img class="ora_icon" style="display: none;" src="../static/image/bdcx_hover.png">
+					<span>保单查询</span>
+				</a>
+				<a href="../108/index.html" class="fw_a">
+					<img class="ser_icon" src="../static/image/bdfw_icon.png">
+					<img class="ora_icon" style="display: none;" src="../static/image/bdfw_hover.png">
+					<span>保单服务</span>
+				</a>
+				<a href="../2086/index.html" class="fw_a">
+					<img class="ser_icon" src="../static/image/lpfw_icon.png">
+					<img class="ora_icon" style="display: none;" src="../static/image/lpfw_hover.png">
+					<span>理赔服务</span>
+				</a>
+				<a href="../2100/index.html" class="fw_a">
+					<img class="ser_icon" src="../static/image/tbzn_icon.png">
+					<img class="ora_icon" style="display: none;" src="../static/image/tbzn_hover.png">
+					<span>投保指南</span>
+				</a>
+				<a href="../2047/index.html" class="fw_a">
+					<img class="ser_icon" src="../static/image/xzzx_icon.png">
+					<img class="ora_icon" style="display: none;" src="../static/image/xzzx_hover.png">
+					<span>下载中心</span>
+				</a>
+				<a href="" class="fw_a">
+					<img class="ser_icon" src="../static/image/xbyz.png">
+					<img class="ora_icon" style="display: none;" src="../static/image/xbyz_hover.png">
+					<span>消保云栈</span>
+				</a>
+			</div>
+  
+			<div class="service-footer service-footer2" style="display: none; justify-content: flex-start;">
+				<a href="../2080/index.html" class="fw_a" style="margin-right: 76px;">
+					<img class="ser_icon" src="../static/image/bdfw_icon.png">
+					<img class="ora_icon" style="display: none;" src="../static/image/bdfw_hover.png">
+					<span>保单服务</span>
+				</a>
+				<a href="../2082/index.html" class="fw_a" style="margin-right: 76px;">
+					<img class="ser_icon" src="../static/image/lpfw_icon.png">
+					<img class="ora_icon" style="display: none;" src="../static/image/lpfw_hover.png">
+					<span>理赔服务</span>
+				</a>
+				<a href="../2095/index.html" class="fw_a" style="margin-right: 76px;">
+					<img class="ser_icon" src="../static/image/tbzn_icon.png">
+					<img class="ora_icon" style="display: none;" src="../static/image/tbzn_hover.png">
+					<span>投保指南</span>
+				</a>
+			</div>
+		</div>
+  
+		<div class="public insurance-business">
+			<p>购买渠道</p>
+			<div class="insurance-header">
+				<a href="../2018/index.html" class="service-active">
+					<span>个险渠道</span>
+					<p class="arrow-down" style="display: block;"></p>
+				</a>
+				<a href="../2016/index.html">
+					<p class="arrow-down" style="display: none;"></p>
+					<span>团险渠道</span>
+				</a>
+				<a href="../2014/index.html">
+					<span>银保渠道</span>
+					<p class="arrow-down" style="display: none;"></p>
+				</a>
+				<a href="JavaScript:;">
+					<span>网销渠道</span>
+					<p class="arrow-down" style="display: none;"></p>
+				</a>
+			</div>
+			<p>保障功能</p>
+			<div class="security bx_security1">
+				   <div>
+					<a href="../2001/index-1_0.html">
+						<img src="../static/image/yw_jkbx.png">
+					</a>
+					<span>健康险</span>
+				   </div>
+				   <div>
+					<a href="../2001/index-1_0.html">
+						<img src="../static/image/yw_ylnj.png">
+					</a>
+					<span>年金险</span>
+				   </div>
+				   <div>
+					<a href="../2001/index-1_0.html">
+						<img src="../static/image/bzgn_srbx.png">
+					</a>
+					<span>寿险</span>
+				   </div>
+				   <div>
+					<a href="../2001/index-1_0.html">
+						<img src="../static/image/bz_cfgl.png">
+					</a>
+					<span>意外伤害险</span>
+				   </div>
+				<!-- <div></div>
+				<div></div> -->
+			</div>
+			<div class="security bx_security2" style="display: none;">
+				<div>
+					<a href="../2001/index-1_0.html">
+						<img src="../static/image/yw_jkbx.png">
+					</a>
+					<span>健康险</span>
+				</div>
+				<div>
+					<a href="../2001/index-1_0.html">
+						<img src="../static/image/yw_ylnj.png">
+					</a>
+					<span>年金险</span>
+				</div>
+				<div>
+					<a href="../2001/index-1_0.html">
+						<img src="../static/image/bzgn_srbx.png">
+					</a>
+					<span>寿险</span>
+				</div>
+				<div>
+					<a href="../2001/index-1_0.html">
+						<img src="../static/image/bz_cfgl.png">
+					</a>
+					<span>意外伤害险</span>
+				</div>
+			</div>
+  
+			<div class="security bx_security3" style="display: none;">
+				<div>
+					<a href="../2001/index-1_0.html">
+						<img src="../static/image/yw_jkbx.png">
+					</a>
+					<span>健康险</span>
+				</div>
+				<div>
+					<a href="../2001/index-1_0.html">
+						<img src="../static/image/yw_ylnj.png">
+					</a>
+					<span>年金险</span>
+				</div>
+				<div>
+					<a href="../2001/index-1_0.html">
+						<img src="../static/image/bzgn_srbx.png">
+					</a>
+					<span>寿险</span>
+				</div>
+				<div>
+					<a href="../2001/index-1_0.html">
+						<img src="../static/image/bz_cfgl.png">
+					</a>
+					<span>意外伤害险</span>
+				</div>
+			</div>
+			<div class="security bx_security4" style="display: none;">
+				<div>
+					<a href="../2001/index-1_0.html">
+						<img src="../static/image/yw_jkbx.png">
+					</a>
+					<span>健康险</span>
+				</div>
+			</div>
+		</div>
+  
+		<div class="public disclosure">
+			<img class="approach" src="../static/image/gkxxpl.png">
+			<div class="approach-right" style="height: 70%;">
+				
+					<a href="../77/index.html#123" class="approach-title">
+						<span>基本信息</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a><a href="../77/index.html#124" class="approach-title">
+						<span>临时信息</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a><a href="../77/index.html#127" class="approach-title">
+						<span>专项信息</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a><a href="../77/index.html#129" class="approach-title">
+						<span>投连专区</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a><a href="../77/index.html#125" class="approach-title">
+						<span>年度信息</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a><a href="../77/index.html#128" class="approach-title">
+						<span>重大事项</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a>
+				
+			</div>
+		</div>
+  
+		<div class="public social-responsibility">
+			<img class="approach" style="margin-right: 30px;" src="../static/image/shzr.png">
+			<div class="approach-right">
+				
+					<a href="../78/index.html" class="approach-title">
+						<span>社会责任报告</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a>
+				
+			</div>
+		</div>
+  
+  
+		<div class="public recruitment">
+			<img class="approach" style="margin-right: 30px;" src="../static/image/rczp.png">
+			<div class="approach-right">
+				 
+					<a href="../132/index.html" class="approach-title">
+						<span>校园招聘</span>
+						<i>
+							<img class="blueRight" src="../static/image/right.png">
+							<img class="whiteRight" style="display: none;" src="../static/image/whiteRight.png">
+						</i>
+					</a>
+				
+			</div>
+		</div>
+  
+  
+		<div class="public jx_c_search ">
+			<img class="approach" src="../static/image/ss.png">
+			<div class="approach-right">
+				<input class="sr_input" type="search" placeholder="请输入关键字进行搜索">
+				<a href="../2654/index.html" target="_blank">
+				  <button class="ss_btn" style="cursor: pointer;" type="button">搜索</button>
+				</a>
+			</div>
+		</div>
+	</div>
+  
+  </div>
+  
+  
+  <div class="smallheader">
+	<div class="headerBtn">
+		<img class="nav_icon" src="../static/image/nav_icon.png">
+		<img class="nav_icon_light" src="../static/image/nav_icon_2.png">
+	</div>
+  
+	 <a href='../../../index.html'>
+		<div class="headerlogo">
+		<img class="logo" src="../static/image/white_logo.png">
+		<img class="logo_light" src="../static/image/white_logo.png">
+	   </div>
+	</a>
+  </div>
+  
+  
+  <div class="headerLeft">
+	<div class="nav_close">
+		<img src="../static/image/nav_close.png">
+	</div>
+	<div class="m-list"> 
+		<a href="../88/index.html"> <span>走进昆山保险</span> </a>
+		<a href="../../../elife-wechat/index.html"> <span>保险商城</span> </a>
+		<a href="../75/index.html"> <span>服务中心</span> </a>
+		<a href="../112/index.html"> <span>保险业务</span> </a> 
+		<a href="../77/index.html"> <span>公开信息披露</span> </a> 
+		<a href="../78/index.html"> <span>社会责任</span> </a> 
+		<a href="../79/index.html"> <span>人才招聘</span> </a> 
+	</div>
+  
+	<div class="nav_bottom">
+  <a href="../2654/index.html" target="_blank">
+		<img src="../static/image/serch_icon.png">
+  </a>
+		<a href="../2654/index.html" target="_blank"> <span>登录</span> </a> 
+		<a href="../2654/index.html" target="_blank"> <span>注册</span> </a> 
+	</div>
+  
+  
+  </div>
+  
+  
+  <div class="shade"></div>
+  
+  <script>
+	var that = ''
+	$(".header-list").on('mouseenter', 'a', function () {
+		that = this
+		$("header a").css({
+			color: '#303133',
+			borderBottom: 'none'
+		})
+		$(".list-content").show()
+		var className = $(this).attr('class')
+		switch (className) {
+			case 'menu0':
+				$('.public').hide()
+				$('.approach-jx').show()
+				break
+			case 'menu1':
+				$('.public').hide()
+				$('.insurance-shop').show()
+				break
+			case 'menu2':
+				$('.public').hide()
+				$('.service-center').show()
+				break
+			case 'menu3':
+				$('.public').hide()
+				$('.insurance-business').show()
+				break
+			case 'menu4':
+				$('.public').hide()
+				$('.disclosure').show()
+				break
+			case 'menu5':
+				$('.public').hide()
+				$('.social-responsibility').show()
+				break
+			case 'menu6':
+				$('.public').hide()
+				$('.recruitment').show()
+				break
+			case 'menu7':
+				$('.public').hide()
+				$('.jx_c_search').show()
+				break
+		}
+		$(this).css({
+			color: '#0066B3',
+			borderBottom: '4px #0066B3 solid'
+		})
+		$(".header").css({
+			borderBottom: '1px solid #e6e6e6'
+		})
+	})
+	$(".header-list")
+		.mouseleave(function () {
+			$(".whiteLogo").show()
+			$('.used_div').show()
+			$(".blueLogo").hide()
+			$(".whiteSearch").show()
+			$(".blackSearch").hide()
+			$(".list-content").hide()
+			$("header a").css({
+				color: '#fff',
+				borderBottom: 'none'
+			})
+			$(".header").css({
+				borderBottom: 'none'
+			})
+		})
+		.mouseenter(function () {
+			$(".whiteLogo").hide()
+			$('.used_div').hide()
+			$(".blueLogo").show()
+			$(".whiteSearch").hide()
+			$(".blackSearch").show()
+			if (that) {
+				$(".list-content").show()
+				$("header a").css({
+					color: '#303133',
+				})
+				$(that).css({
+					color: '#0066B3',
+					borderBottom: '4px #0066B3 solid'
+				})
+			}
+		})
+	$(".list-content-detail")
+		.mouseenter(function () {
+			$(".whiteLogo").hide()
+			$('.used_div').hide()
+			$(".blueLogo").show()
+			$(".whiteSearch").hide()
+			$(".blackSearch").show()
+			$(".list-content").show()
+			$("header a").css({
+				color: '#303133',
+			})
+			$(".header").css({
+				borderBottom: '1px solid #e6e6e6'
+			})
+			$(that).css({
+				color: '#0066B3',
+				borderBottom: '4px #0066B3 solid'
+			})
+		})
+		.mouseleave(function () {
+			$(".whiteLogo").show()
+			$('.used_div').show()
+			$(".blueLogo").hide()
+			$(".whiteSearch").show()
+			$(".blackSearch").hide()
+			$(".list-content").hide()
+			$("header a").css({
+				color: '#fff',
+				borderBottom: 'none'
+			})
+			$(".header").css({
+				borderBottom: 'none'
+			})
+		})
+	$(".approach-title")
+		.mouseenter(function () {
+			$(this).children("i").children(".blueRight").hide()
+			$(this).children("i").children(".whiteRight").show()
+			$(".approach-title").removeClass('active')
+			$(this).addClass('active')
+		})
+		.mouseleave(function () {
+			$(".approach-title").removeClass('active')
+			$(".blueRight").show()
+			$(".whiteRight").hide()
+		})
+  $('.insurance-header').on('mouseenter', 'a', function () {
+	if($(this).index()==0){
+	  $('.bx_security1').show()
+	  $('.bx_security2,.bx_security3,.bx_security4').hide()
+	}else if($(this).index()==1){
+	  $('.bx_security2').show()
+	  $('.bx_security1,.bx_security3,.bx_security4').hide()
+	}else if($(this).index()==2){
+	  $('.bx_security3').show()
+	  $('.bx_security2,.bx_security1,.bx_security4').hide()
+	}else if($(this).index()==3){
+	  $('.bx_security4').show()
+	  $('.bx_security1,.bx_security3,.bx_security2').hide()
+	}
+	})
+  $('.service-header').on('mouseenter', 'a', function () {
+	if($(this).index()==0){
+	  $('.service-footer1').show()
+	  $('.service-footer2').hide()
+	}else if($(this).index()==1){
+	  $('.service-footer2').show()
+	  $('.service-footer1').hide()
+	}else if($(this).index()==2){
+	  $('.service-footer2').hide()
+	  $('.service-footer1').hide()
+	}
+	})
+	$('.service-header,.insurance-header').on('mouseenter', 'a', function () {
+		$('a').removeClass('service-active')
+		$('.arrow-down').hide()
+		$(this).addClass('service-active')
+		$(this).children('.arrow-down').show()
+	})
+	$(".fw_a")
+		.mouseenter(function () {
+			$(this).children(".ser_icon").hide()
+			$(this).children(".ora_icon").show()
+		})
+		.mouseleave(function () {
+			$(".ser_icon").show()
+			$(".ora_icon").hide()
+		})
+	$(document).ready(function () {
+		setTimeout(function () {
+			brandTabOffTop = [];
+			var p = 0, t = 0;
+			var showHeadState = true;
+			$(window).scroll(function (event) {
+				p = $(this).scrollTop();
+				if (t <= p) {
+					//向下滚
+					if ($(document).scrollTop() >= $('.head').height() + 30) {
+						if ($('.head').hasClass('hestate')) {
+							$('.head').css({ 'position': 'fixed', 'top': '-72px' });
+						} else {
+							$('.head').hide();
+							$('.head').css({ 'position': 'fixed', 'top': '-72px' });
+						}
+					}
+				} else {
+					//向上滚
+					if (showHeadState == true) {
+						//$('.head_white').removeClass('fixed');
+						if ($(document).scrollTop() < $('.head').height()) {
+							$('.head').css({ 'position': 'fixed', 'top': '0px' });
+							$('.head').removeClass('hestate')
+							setTimeout(function () {
+								$('.head').css({ 'position': 'absolute', 'top': '0px' });
+							}, 50)
+						} else {
+							$('.head').show();
+							setTimeout(function () {
+								$('.head').css({ 'position': 'fixed', 'top': '0px' });
+								$('.head').addClass('hestate')
+							}, 20)
+						}
+  
+					}
+				}
+			});
+  
+		}, 50)
+	})
+	$('.headerBtn').click(function(){
+		$('.headerLeft').css('display','block')
+		$('.headerLeft').animate({left:'0rem'},800);
+		$('.shade').css('display','block')
+	})
+	$('.nav_close').click(function(){
+		$('.headerLeft').animate({left:'-16.25rem'},800,function(){
+				$('.headerLeft').css('display','none')
+		});
+		$('.shade').css('display','none')
+	})
+	$('.shade').click(function(){
+		$('.headerLeft').animate({left:'-16.25rem'},800,function(){
+				$('.headerLeft').css('display','none')
+		});
+		$('.shade').css('display','none')
+	})
+  </script>
+  <style>
+  .nav_bottom img{
+	  margin-top: 0.3rem;
+  }
+  </style>
+    <!-- <div class="xb_bnr" cms:list="xb-banner" var="b">
+    <img th:src="${b.photo}" />
+    <div class="xb_mark">
+      <div class="xb_m_wrap">
+        <p class="z_p_b_p1" th:text="${b.title}"></p>
+        <p class="z_p_b_p2" th:text="${b.subTitle}"></p>
+      </div>
+    </div>
+  </div> -->
+  <div class="bx_banner">
+    <div class="bx_banner_shandow"></div>
+    <div cms:list="xb-banner" var="banner" class="bx_bannerBox">
+      <img src="../static/image/202104251040200376.png" class="bx_banner_img">
+      <div class="bx_banner_word">
+        <p class="bx_banner_title">消保云栈</p>
+        <p class="bx_banner_desc">客户置于云之巅　保驾护航在云栈</p>
+      </div>
+    </div>
+  </div>
+  <div class="xb_p_nav">
+    <ul class="xb_p_ul">
+      
+        <li>
+          <a href="">保险大讲堂</a>
+        </li>
+        <li>
+          <a href="../2049/index.html">信息披露</a>
+        </li>
+        <li>
+          <a href="../2052/index.html">反洗钱知识</a>
+        </li>
+      
+    </ul>
+  </div>
+  <style>
+    .xb_bnr {
+      width: 100%;
+      height: 480px;
+      position: relative;
+      overflow: hidden;
+    }
+  
+    .xb_bnr img {
+      object-fit: cover;
+    }
+  
+    .xb_mark {
+      width: 100%;
+      height: 480px;
+      background-color: rgba(0, 0, 0, 0.2);
+      z-index: 2;
+      position: absolute;
+      left: 0;
+      top: 0px;
+  
+    }
+  
+    .xb_m_wrap {
+      width: 1170px;
+      padding: 0 15px;
+      margin: 0 auto;
+      padding-top: 260px;
+  
+    }
+  
+    .z_p_b_p1 {
+      font-size: 48px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      line-height: 67px;
+      color: #FFFFFF;
+      margin-bottom: 24px;
+    }
+  
+    .z_p_b_p2 {
+      font-size: 20px;
+      font-family: PingFang SC;
+      font-weight: 400;
+      line-height: 28px;
+      color: #FFFFFF;
+      letter-spacing: 10px;
+    }
+  
+    .xb_p_nav {
+      width: 100%;
+      height: 70px;
+      border-bottom: 1px solid #E6E6E6;
+      position: sticky;
+    top: -1px;
+    background: #fff;
+    z-index: 92;
+background: #fff;
+    }
+  
+    .xb_p_ul {
+      width: 1170px;
+      margin: 0 auto;
+      display: flex;
+    }
+  
+    .xb_p_ul li a {
+      font-size: 20px;
+      font-family: PingFang SC;
+      font-weight: 500;
+      line-height: 68px;
+      color: #303133;
+    }
+  
+    .xb_p_ul li {
+      margin-right: 46px;
+    }
+  
+    .xb_p_ul li.nav-itemactive,
+    .xb_p_ul li:hover {
+      border-bottom: 2px solid #0066B3;
+    }
+    .bx_banner {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .bx_banner_shandow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .bx_banner_img {
+    width: 100%;
+    height: 480px;
+    display: block;
+    object-fit: cover;
+  }
+
+  .bx_banner_word {
+  position: absolute;
+  top: 50%;
+  width: 1170px;
+  margin-top: -54.8px;
+  margin-left: -585px;
+  left: 50%;
+  }
+
+  .bx_banner_title {
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .bx_banner_desc {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    letter-spacing: 5px;
+  }
+@media screen and (max-width: 1170px){
+  .bx_banner_word{
+      width: 100%;
+      left: 0;
+      margin-left: 0;
+  }
+}
+    @media only screen and (max-width: 750px) {
+      .xb_bnr {
+        height: 21.8455rem;
+      }
+  
+      .xb_bnr img {
+        width: auto;
+        margin-left: -10rem;
+        height: 100%;
+      }
+  
+      .xb_mark {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .xb_mark .xb_m_wrap {
+        padding: 1.875rem;
+        padding-top: 10rem;
+        width: 100%;
+        box-sizing: border-box
+      }
+  
+      .xb_mark .xb_m_wrap .z_p_b_p1 {
+        font-size: 1.375rem;
+        line-height: 2rem;
+        margin-bottom: 0.625rem;
+      }
+  
+      .xb_mark .xb_m_wrap .z_p_b_p2 {
+        font-size: 0.875rem;
+        line-height: 1rem;
+      }
+      .xb_p_nav{
+          height: 3.125rem;
+      }
+      .xb_p_ul{
+        width: 100%;
+      padding-left: 0.9375rem;
+        box-sizing: border-box;
+      }
+      .xb_p_ul li{
+          margin-right: 1.25rem;
+      }
+      .xb_p_ul li a{
+        font-size: 0.875rem;
+        line-height: 3.125rem;
+      }
+
+    .bx_banner {
+  height: 21.875rem;
+      overflow: hidden;
+    }
+
+    .bx_bannerBox {
+  height: 21.875rem;
+    }
+
+    .bx_banner_shandow {
+      top: 0px;
+    }
+
+    .bx_banner_img {
+      object-fit: cover;
+      height: 100%;
+    }
+
+    .bx_banner_word {
+      left: 2.5rem;
+      top: 10.25rem;
+ margin: 0;
+      width: 85%;
+    }
+
+    .bx_banner_title {
+      font-size: 1.375rem
+    }
+
+    .bx_banner_desc {
+      font-size: 0.875rem
+    }
+    }
+  </style>
+    <div class="bxdjt-main">
+        <div class="contain w_170">
+            <div class="title">
+                <span class="title-font">保险大讲堂</span>
+            </div>
+            <div class="tab-head">
+                <!-- <span id="dwxc">对外宣传</span>
+                <span id="fgstg">分公司投稿</span>
+                <span id="hdwa">活动文案</span> -->
+                <span id="syjs" class="tab-active">保险术语介绍</span>
+                <span id="fwal">服务案例</span>
+            </div>
+            <div class="tab-content">
+                <!-- <div class="tab-cont tab-cont-dwxc"></div>
+                <div class="tab-cont tab-cont-fgstg"></div>
+                <div class="tab-cont tab-cont-hdwa"></div> -->
+                <div class="tab-cont tab-cont-syjs disOut">
+                    
+                        <h2>保险术语</h2>
+                        <p class="d-subTitle" style="margin:10px 0px 20px 0px">
+                            <span>文章作者：昆山保险人寿</span>
+                            <span>发布时间：2019-04-26</span>
+                        </p>
+                        <p class="little-desc">1.人身风险：因事故发生造成人的死亡、伤残或疾病的风险。<br>
+2.经验生命表：依据被保险人实际的死亡统计资料编制的生命表。<br>
+3.国民生命表：以全体国民或以特定地区的人口的死亡统计资料编制的生命表。<br>
+4.选择生命表：根据通过保险体检的被保险人在选择期内的死亡统计资料编制的生命表。<br>
+5.终极生命表：根据选择期后的被保险人死亡统计资料编制的生命表。<br>
+6.综合生命表：不考虑投保经过的年数，根据所有被保险人的死亡统计资料编制的生命表。<br>
+7.死亡表：根据一定时期的特定区域人口或特定人口群体的有关死亡统计资料，编制成的描述每一类人口在各个不同年龄的死亡率的表。<br>
+8.平均余命：从被保险人当前年龄始，至预期死亡时间止的期间。<br>
+9.疾病发生率表：按年龄、性别和病种等因素列明特定群体发病率的表。<br>
+10.发病率：某一特定年龄的特定人群发生某种疾病的概率。<br>
+11.死亡率：某一特定人群在各年龄发生死亡的概率。<br>
+12.人身保险：以人的寿命和身体为保险标的的保险。<br>
+13.人寿保险：以被保险人的寿命为保险标的，且以被保险人的生存或死亡为给付条件的人寿保险。<br>
+14.可续保定期人寿保险：保险合同中载明的，在保险期限届满时保单持有人不需要提供被保险人可保性证明即可继续投保的一种定期寿险。<br>
+15.可转换定期人寿保险：保险合同中载明的，在合同约定的期限内　保单持有人不需要提供被保险人可保性证明即可将原有的寿险合同转换成终身寿险合同的一种定期寿险。<br>
+16.终身寿险：以被保险人死亡为给付保险金条件，且保险期限为终身的人寿保险。<br>
+17.两全保险：在保险期限内，以被保险人死亡或生存为给付保险金条件的人寿保险。<br>
+18.养老保险：以约定责任时间被保险人死亡、或被保险人达到一定年龄为保险金给付条件的人寿保险。<br>
+19.个人养老保险：由个人投保并按保险合同约定缴纳保险费，在被保险人生存至一定年龄后，保险人按照保险合同约定给付养老金的人寿保险。<br>
+20.团体养老保险：以某个企业、事业单位、机关和社会团体等组织的成员（可包括成员配偶、子女和父母）为被保险人（不少于五人），保险人用一份保险合同承保，在被保险人生存至国家规定的退休年龄后，保险人按照保险合同约定给付养老金的人寿保险。<br>
+21.年金保险 ：以被保险人生存为给付保险金条件，并按约定的时间间隔分期给付生存保险金的人身保险。<br>
+22.企业年金：在依法参加基本养老保险的基础上，企业自愿发起设立并享受一定税收优惠的具有补充性质的养老保险。<br>
+23.确定收益型企业年金：即DB型企业年金，养老金计划发起人或管理人向计划参与者作出承诺，保证其养老金收益按事先的约定发放，也就是说，养老金计划参与者在退休后每月领取的养老金数量是事先确定好的。　<br>
+24.确定缴费型企业年金：即DC型企业年金，养老金计划参与者到退休年龄为止，一共向养老金计划缴了多少费是确定的，但其退休后每月可领取多少养老金是不确定的。<br>
+25.定额年金：根据保险合同的约定，每期领取的年金数额相同的年金。<br>
+26.变额年金：年金的给付值随着分立账户投资业绩的变化而变化，保险公司不保证年金领取人的定期给付金额的一种年金形式。<br>
+27.增额年金：根据保险合同的约定，每期领取的年金数额随每年度增加的年金。<br>
+28.即期年金：根据保险合同的约定，开始领取年金的日期与保单生效日期相隔不超过一年的年金保险。<br>
+29.延期年金：根据保险合同的约定，开始领取年金的日期与保单生效日期相隔超过一年的年金保险。又称递延年金。<br>
+30.确定年金:根据保险合同的约定，年金支付周期在合同中确定，且年金支付与被保险人的生死无关的年金保险。<br>
+31.终身年金：根据保险合同的约定，被保险人生存至特定年龄后按期领取生存保险金，直至被保险人死亡为止的年金保险。<br>
+32.返还年金：根据保险合同的约定，保险人保证给付一定次数或者金额的年金，在被保险人死亡后要继续向其受益人给付剩余次数或金额的年金保险。<br>
+33.保险责任：保险合同中约定的，保险事故发生后应由保险人承担的赔偿或给付保险金的责任。<br>
+34保险利益：是指投保人或者被保险人对保险标的具有的法律上承认的利益。<br>
+35.主险：也称基本险，指的是可单独投保的保险产品。<br>
+36.附加险：不可单独投保而必须附加于主险或基本险，用来补充主险的保险范围的保险产品。<br>
+37.责任免除：保险合同中约定的，保险人不承担或者限制承担的责任范围。<br>
+38.投保人：与保险人订立保险合同，并按照保险合同负有支付保险费义务的人。<br>
+39.保单持有人：享有保险合同所有权的个人或者单位。<br>
+40.保险人：与投保人订立保险合同，并承担赔偿或者给付保险金责任的保险公司。<br>
+41.被保险人：其财产或者人身受保险合同保障，享有保险金请求权的人，投保人可以为被保险人。<br>
+42.附加被保险人：保险合同中约定的、受保险合同保障的，处于从属地位的被保险人。<br>
+43.受益人：人身保险合同中由被保险人或者投保人指定的享有保险金请求权的人。<br>
+44.告知：投保人在订立保险合同时将与保险标的或被保险人有关的重要事实以口头或书面的形式向保险人做陈述的行为。<br>
+45.询问告知：投保人在订立保险合同时，就保险人对保险标的或者被保险人的有关重要事实的询问，向保险人作的告知。<br>
+46.寿险核保：保险人对投保人和被保险人的身体状况、职业、经济能力和投保动机等因素进行危险程度评估的核保过程。<br>
+47.体检：由与保险人签约或保险人认可的医疗从业人员对被保险人身体健康状况进行检查的行为。<br>
+48.免体检限额：保险人根据被保险人的年龄分布确定的一个保险金额上限，如在投保申请过程中某个被保险人的保险金额不超过这个上限且无任何告知异常，保险人将无需对被保险人行进体检。<br>
+49.生存调查：保险人为了确认是否可以承保或以何种条件承保，而对被保险人或者潜在的被保险人进行的调查，也包括对领取年金或者养老金后的被保险人进行的调查。<br>
+50.医学核保：保险人获取被保险人身体健康状况的基本信息，从而评估被保险人是否达到保险合同所需的健康标准的过程。<br>
+51.财务核保：保险人根据被保险人以及投保人的收入水平和既有的财产状况考察投保人是否有过度投保，是否有保费缴纳能力，从而防范道德风险和逆选择发生的过程。<br>
+52.生活方式核保：保险人对被保险人的生活习惯、嗜好等进行评估，决定是否承保和以何种条件承保的过程。<br>
+53.团体核保：保险人对被保险人的职业风险情况进行评估，以决定是否承保和以何种条件承保的过程。<br>
+54.健康风险评估：对某一个体未来发生特定疾病、或因为某种特定疾病导致死亡的可能性的估计。<br>
+55.绝对患病风险：对评价个体在当时的健康状况下，未来一定时间内发生特定疾病或症状的可能性。<br>
+56.承保：指寿险公司接受保户的投保并签发保险单的行为。<br>
+57.理赔：指保险事故发生后，保险人对被保险人所提出的索赔案件的处理。<br>
+58.分项给付限额：在总保额下又对每个项目设置了最高补偿限额，总保额实际上就是各个分项的最高补偿限额的总和。。<br>
+59.累计最高给付天数：在保险合同中约定的，保险人对被保险人单次住院给付保险金的最多天数，或者每一保单年度的最多给付天数。<br>
+60.免赔期：在保险合同中约定的一个时间段，若被保险人住院天数在该时间段内，则相关的费用支出或收入损失由被保险人自己承担；若住院天数超出该时间段，则保险公司承担超出该时间段部分的费用支出或收入损失。<br>
+61.投保单：是投保人向保险人申请订立保险合同的书面要约。投保单是由保险人事先准备、具有统一格式的书据。投保人必须依其所列项目一一如实填写，以供保险人决定是否承保或以何种条件、何种费率承保。如投保单填写的内容不实或故意隐瞒、欺诈，都将影响保险合同的效力。<br>
+62.保险单：简称保单，指保险公司给投保人的凭证，证明保险合同的成立及内容。保单上载有参加保险的种类、时间、保险金额、保险费、保险期限等保险合同的主要内容，保险单是一种具有法律效力的文件。<br>
+63.人身保险合同：以人的寿命和身体为保险标的的保险合同。<br>
+64.给付性保险合同：保险合同当事人约定在保险事故发生后或约定期限届满时，保险人按照合同约定的保险金额给付保险金的保险合同。<br>
+65.现金价值：根据保险合同的约定，保单积累的实际价值。<br>
+66.保单现金价值价值净额：保单现金价值扣除欠缴保费及其他欠款本息的净额。<br>
+67.保单贷款：人寿保险中，保险人以保单现金价值作为担保向投保人提供贷款的行为。<br>
+68.保单选择权：在保险合同失效前，投保人享有的处置保单的权利。<br>
+69.保险合同中止：由于投保人在保险合同约定的宽限期内未足额缴纳续期保费，造成的保险合同效力的丧失。<br>
+70.保险合同复效：保险合同中止后一定时间内，由投保人申请，经保险公司同意，投保人补缴保险费及利息后，保险合同效力的恢复。<br>
+71.展期保险：投保人不能按合同约定缴纳保费时，为保持原保险合同的保险金额不变，将当时保险合同保单现金价值作为趸交保费，计算新的保险期限的一种保单选择权。<br>
+72.保单账户：保险人为投保人开立并与保险合同关联的，用于投保人缴费、分红和保单资产管理等保单管理功能的账户。<br>
+73.个人投资账户：根据投资连接保险或者万能保险合同条款的约定，保险人为了履行保险合同的保险责任，为明确投保人或被保险人的权益而为每份保险合同的投保人或被保险人设立的账户。</p>
+
+                    
+                </div>
+                <div class="tab-cont tab-cont-fwal">
+                    <h2 class="little-title">服务案例</h2>
+                    <div class="article-list" id="PHONE_data"></div>
+                    <div class="article-list" id="data2"></div>
+                    <div class="article-list" id="data">
+                        <p cms:list="xb-jt-case" var="list">
+                          <span class="block">
+                            <span class="number">09</span>
+                            <span class="time">2020-06</span>
+                          </span>
+                          <a class="title" href="../2057/detail259.html">
+                          <span>
+                            <span class="title-font">昆山保险人寿迅速启动昆山地铁事故理赔应急预案</span>
+                            <span class="subTitle-font">2011年9月27日下午14时51分，昆山地铁10号线发生一起两车追尾事故，造成271人受伤</span>
+                            </span>
+                          </a>
+                            <a href="../2057/detail259.html" class="icon">
+                                <img class="grayImg" alt="" src="../static/image/jb_biack_hui.png">
+                                <img class="blueImg" alt="" src="../static/image/jb_biack_lan.png">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="pages">
+    <div class="pl_paging">
+        <div onclick="pl_page_data(1)">首页</div>
+        <div onclick="upper(true)">上一页</div>
+        <div onclick="upper(false)">下一页</div>
+        <div onclick="pl_page_data(0)">尾页</div>
+        <div>当前第<span class="pl_item"></span>页</div>
+        <div>总共<span class="pl_counts"></span>条 共<span class="pl_pages"></span>页</div>
+    </div>
+    <div class="PHONE ph_more">
+        <a href="JavaScript:;" onclick="ph_more()">查看更多</a>
+    </div>
+</div>
+    <!-- 页面底部 -->
+    
+<div class="jx-dh-footer">
+    <div class="footer_contain">
+      
+        <div class="footer_left"><div class="concat"><span style="font-family:PingFang SC;">全国客户服务热线：95331 或 <span style="color:#ffffff;">400-8855-668</span><br>
+邮箱：CN-Service@ksbxzp.cn<br>
+通讯地址：昆山市区银城路99号建行大厦29-33楼</span></div>
+
+<div class="copyright"><span style="font-family:PingFang SC;"><a href="../2200/index.html" style="font-size:12px; color:#fff;display:inline">法律声明</a> | <a href="../2201/index.html" style="font-size:12px; color:#fff;display:inline">安全说明</a><br>
+版权所有 &#xa9; 昆山保险人寿保险股份有限公司 未经许可不得复制、转载或摘编，违者必究!</span><br>
+<span style="font-family:PingFang SC;"><a href="javascript:;" style="color:#fff;">经营许可证编号：沪ICP备17044175号-1 沪公网安备：31011502015841</a><br>
+本网站已支持IPv6</span></div>
+</div>
+        <div class="footer_left"></div>
+        <div class="footer_center">
+          <div class="code">
+            <div class="inside">
+              <div class="qr">
+                <img src="../static/image/hz_ewm.png">
+              </div>
+              <p>官方微信号</p>
+            </div>
+          </div>
+        </div>
+        <!-- 移动端二维码 -->
+        <div class="m_center">
+          <div class="m_code">
+            <div class="m_img">
+              <img src="../static/image/hz_ewm.png">
+            </div>
+            <div class="font">昆山保险人寿官方微信</div>
+          </div>
+  
+          <div class="footer_right">
+            <div class="footer_select">
+              <select id="select1">
+              </select>
+              <img src="../../6039/static/image/select_Bt_W.png" class="select_img">
+              <button type="button" onclick="btnclick()">进入</button>
+            </div>
+            <div class="footer_search">
+              <input type="text" placeholder="请输入" class="footerInput">
+              <a href="../2654/index.html" target="_blank">
+                <button type="button" style="cursor: pointer;">
+                      搜索
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+  <div class="m_law">
+    <div class="m_font">
+    </div>
+  </div>
+  <div class="left_menu">
+    <ul>
+  <a href="JavaScript:;openWinKefu()">
+      <li class="lxkf">
+        <div class="l_menu_img">
+          <img class="l_icon" alt="" src="../static/image/kf_icon.png">
+          <img class="l_icon_hover" style="display: none;" alt="" src="../static/image/kf_hover.png">
+        </div>
+        <div class="l_menu_info">
+          在线客服
+        </div>
+      </li>
+  </a>
+      <li class="gzwx">
+        <div class="l_menu_img">
+          <img class="l_icon" alt="" src="../static/image/wx_icon.png">
+          <img class="l_icon_hover" style="display: none;" alt="" src="../static/image/wx_hover.png">
+        </div>
+        <div class="l_menu_info">
+          关注微信
+        </div>
+        <div class="left_ewm">
+          <img alt="" src="../static/image/hz_ewm.png">
+          <p>扫一扫关注 <br>官方微信</p>
+        </div>
+      </li>
+      <a href="../2654/index.html" target="_blank">
+        <li class="dcwj">
+          <div class="l_menu_img">
+            <img class="l_icon" alt="" src="../static/image/yjfk_icon.png">
+            <img class="l_icon_hover" style="display: none;" alt="" src="../static/image/yjfk_hover.png">
+          </div>
+  
+          <div class="l_menu_info">
+            建议反馈
+          </div>
+        </li>
+      </a>
+      <li class="top" id="p_top">
+        <div class="l_menu_img">
+          <img class="l_icon" alt="" src="../static/image/top_icon.png">
+          <img class="l_icon_hover" style="display: none;" alt="" src="../static/image/top_hover.png">
+        </div>
+        <div class="l_menu_info">
+          返回顶部
+        </div>
+      </li>
+    </ul>
+  </div>
+  <style>
+  .left_menu li:hover{
+  cursor: pointer;
+  }
+
+  .bg_all_ak{
+  background-color: #005BAC !important;
+  }
+  .footer_right>.footer_select>select {
+    width: 172px;
+    height: 100%;
+    background: #005BAC;
+    color: #fff;
+    float: left;
+    text-indent: 15px;
+  }
+  .footer_right>.footer_select>select>option {
+    background: #f4f4f4;
+    color: #0066B3;
+  }
+  .footer_right>.footer_select>button {
+    cursor: pointer;
+  }
+  .footerInput::-webkit-input-placeholder{ /*WebKit browsers*/
+    color: #fff;
+    font-size: 14px;
+  }
+  @media screen and (max-width: 750px){
+    .l_menu_info{
+      display: none;
+    }
+  }
+  .footer_select select{
+        -webkit-appearance: none;
+  }
+  </style>
+
+    <script type="text/javascript">
+        $(function () {
+            $(".xb_p_nav ul li").eq(0).addClass("tab-active");
+            $('.pages').hide()
+            $(".tab-head span").click(function () {
+                $('.pages').hide()
+                var id = $(this).attr("id");
+                $(this).addClass("tab-active").siblings().removeClass("tab-active");
+                $(".tab-cont-" + id)
+                    .show()
+                    .siblings(".tab-cont")
+                    .hide();
+                    $("#data").addClass("dis");
+                    var _data = $("#data p").clone(true);
+                    $.Pl_paging(_data, '#data2');
+            });
+        });
+        $('#fwal').click(function(){
+            setTimeout(function(){
+                $('.pages').show()
+            },1000)
+        })
+        $('.tab-content>div').hide()
+        $('.tab-content>div:first-child').show()
+    </script>
+</body>
+
+</html>

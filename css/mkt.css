@@ -1,0 +1,167 @@
+
+/* CSS Document */
+
+
+/*--------------左侧链接------------------*/
+.left_btn5{background: url(../images/marketing/e.gif) no-repeat; display:block; width:190px; height:60px; margin-top:10px;}
+.left_btn6{background: url(../images/marketing/email_login.gif) no-repeat; display:block; width:190px; height:60px; margin-top:10px;}
+
+
+
+
+/*--------------优秀营销员------------------*/
+.yxyxy{ width:774px; height:130px; background:url(../images/marketing/banner_yxyxy.jpg) no-repeat; margin-left:2px;}
+.height15{ height:15px;}
+.height8{ height:8px;}
+.height14{ width:100%; height:14px; float:left;}
+.height20{ width:720px; margin:0 auto; height:20px; border-bottom:1px dashed #e7e7e7;}
+.height22{ height:22px;} 
+.yxqd_check{ width:772px; height:83px; background:#ededed; margin:0 auto;}
+.check_tab{ font-size:12px; margin:0 auto; _margin-top:-10px;}
+.check_tab th{ padding:0px;}
+.check_tab td{ padding:0px;}
+.check_tab span{ color:#cb1b1b; padding-left:16px;}
+.check_tab h1{ width:51px; height:22px; line-height:22px; text-align:center; background: url(../images/marketing/check_but.gif) no-repeat;}
+.check_tab h1 a{ color:#FFF; text-decoration:none;}
+
+.yxqd_check_two{ width:190px; height:auto; background:#ededed; margin:0 auto;}
+.check_tab_two{ font-size:12px; margin:0 auto; margin-top:10px;}
+.check_tab_two th{  text-align:left;}
+.check_tab_two td{ text-align:right;}
+.check_tab_two span{ color:#cb1b1b; padding-left:16px;}
+.check_tab_two h1{ width:51px; height:22px; line-height:22px; text-align:center; background: url(../images/marketing/check_but.gif) no-repeat; float:right;}
+.check_tab_two h1 a{ color:#FFF; text-decoration:none;}
+
+.check_input{ width:111px; height:18px; border:#a6a6a6 1px solid;}
+.check_select{ width:100px; border:#a6a6a6 1px solid;}
+.yxyxy_con_top_bg{ width:734px; height:61px; background:url(../images/marketing/yxyxy_con_top_bg.gif) no-repeat; padding:30px 0 0 40px; font-size:14px; font-weight:bolder; color:#075493; padding-top:25px\9;}
+.yxyxy_con_top_bg span{ color:#e22a2c; margin-left:20px; font-weight:normal;}
+.yxyxy_con_top_bg h1{ font-weight:normal;}
+.yxyxy_con_select{ width:120px;}
+.yxyxy_con_center_bg{ width:772px; height:auto; background-color:#FFF; border-left:#e0e0e0 1px solid; border-right:#e0e0e0 1px solid;}
+.yxyxy_con_center_bg ul{ width:730px; height:320px; margin:0 auto; text-align:center;}
+.yxyxy_con_center_bg ul li{ width:146px; height:150px; display:block; float:left; list-style:none; margin-left:0px}
+.yxyxy_con_center_bg ul li span{ background:#d4e9ec; display:block; width:104px; margin:0 auto; height:21px; line-height:21px;}
+.yxyxy_con_center_bg ul li span a { width:104px; height:21px; display:block; text-align:center; line-height:21px; color:#232323; margin:0 auto; text-decoration:none;}
+.yxyxy_con_center_bg ul li a:hover{ color:#cb1b1b; text-decoration:underline;}
+.yxyxy_con_center_bg ul li p img { display:block; clear:both; width:104px; margin:0 auto; height:129px;}
+.yxyxy_con_bot_bg{ width:774px; height:11px; background:url(../images/marketing/yxyxy_con_bot_bg.gif) no-repeat;}
+.con_list_con_o{ background:#fff; padding:0 10px;}	
+.con_list_con_o td{line-height:16px; padding:10px 5px;}
+
+.list_right {width:775px; float:right;}
+.list_right ul {}
+.list_right ul li { list-style-type:disc; list-style-position: inside ; margin-left:10px; color:#7f7f7f; font-size:14px;}
+
+/*--------------生涯规划------------------*/
+.sygh{ width:775px; height:130px; background:url(../images/marketing/banner_sygh.jpg) no-repeat;}
+.sygh_c_a{ width:771px; height:25px; line-height:25px; background:url(../images/marketing/sygh_c_a.gif) no-repeat; margin:0 auto; color:#e22a2c; text-align:center;}
+.sygh_icon_o{ width:36px; height:36px; background:url(../images/marketing/sygh_icon_o.gif) no-repeat;}
+.sygh_icon_t{ width:36px; height:36px; background:url(../images/marketing/sygh_icon_t.gif) no-repeat;}
+.sygh_h3{ width:705px;  line-height:20px; margin:0 auto; margin-top:20px; font-weight:normal; font-size:12px; background:url(../images/marketing/gou.gif) no-repeat;color:#1889c3; padding-left:30px; display:block;}
+.sygh_h4{ width:705px;  line-height:20px; margin:0 auto; margin-top:20px; font-weight:normal; font-size:12px; color:#1889c3; padding-left:30px; display:block;}
+.sygh_h4 p{ color:#7f7f7f; line-height:34px;}
+.sygh_h3 span{ color:#7f7f7f;}
+.sygh_h3 p{ padding-left:82px; _padding-left:78px; color:#7f7f7f;}
+
+
+/*--------------加入我们内容------------------*/
+.jrwm{width:774px; height:130px; background:url(../images/marketing/banner_jrwm.jpg) no-repeat; margin-left:1px;}
+.jrwo_con{ width:775px; height:230px;}
+.jrwo_con ul{ margin:0; padding:0; margin:10px 0 0 60px;}
+.jrwo_con ul li{ width:340px; height:26px; line-height:26px; _height:20px; display:block; color:#626262; float:left; margin-left:0px; list-style:none;}
+.jrwo_con ul li a{color:#cb1b1b; text-decoration:none; }
+.jrwo_con h1{ height:30px; line-height:30px; border-bottom:1px #e5e5e5 solid; font-size:14px; color:#2089c2; padding-left:30px;}
+.jrwo_con h2{ padding:15px 0 0 60px; color:#414141;}
+#jrwm_c{ margin-top:15px; color:#cb1b1b;}
+
+
+
+/*--------------优秀营销员详细内容------------------*/
+.yxyxyx_top{ width:942px; height:18px; background:url(../images/marketing/yxyxyx_top_bg.gif) no-repeat; margin:0 auto;}
+.yxyxyx_con{ width:940px; height:auto; background:url(../images/marketing/yxyxyx_con_bg.gif) repeat-y; margin:0 auto; border-left:1px #cfcfcf solid; border-right:1px #cfcfcf solid;}
+.yxyxyx_bot{ width:942px; height:53px; background:url(../images/marketing/yxyxyx_bot_bg.gif) no-repeat; margin:0 auto;}
+.yxyxyx_grjs{ width:92px; height:49px; background:url(../images/marketing/yxyxyx_grjs.gif) no-repeat; margin:40px 0 0 97px; font-size:18px; color:#0f6fb8; font-weight:bolder; padding:10px 0 0 60px}
+.hz{ width:230px; height:53px; background:url(../images/marketing/hz.gif) no-repeat; margin-left:75px; padding:40px 0 0 70px; font-size:30px; color:#e22a2c;}
+.yxyxyx_tab{ margin-left:115px;}
+.yxyxyx_tab td{ text-align:left; font-size:14px; color:#666666; height:40px; line-height:40px; border-bottom:1px dashed #6c7175;}
+.yxyxyx_grjj{ width:91px; height:52px; background:url(../images/marketing/yxyxyx_grjj.gif) no-repeat; margin:20px 0 0 97px; padding:15px 0 0 60px; font-size:18px; color:#0f6fb8; font-weight:bolder;}
+.yxyxyx_con p{ width:81%; margin-left:135px; line-height:24px; color:#666666;}
+.yxyxyx_grry{ width:91px; height:48px; background:url(../images/marketing/yxyxyx_grry.gif) no-repeat; margin:20px 0 0 97px; padding:17px 0 0 60px; font-size:18px; color:#0f6fb8; font-weight:bolder;}
+.yxyxyx_ryzs{ width:100%; margin:0 auto; float:left}
+.yxyxyx_ryzs p{ width:700px; margin:0; margin-left:110px; height:25px; line-height:25px; color:#666666; padding-left:25px; display:block;}
+#jt_none{ background-image:none; }
+.yxyxyx_but{ width:141px; height:61px; line-height:45px; font-size:14px;  font-weight:bolder; color:#FFF; background:url(../images/marketing/yxyxyx_but.gif) no-repeat; margin:0 auto; text-align:center; clear:both;}
+.yxyxyx_but a{ text-decoration:none; color:#FFF; font-size:14px;}
+.yxyxyx_but a:hover{ width:141px; height:61px; background:url(../images/marketing/yxyxyx_but_hover.gif) no-repeat; display:block;}
+.yxyxyx_tpbj{ width:800px; _width:830px; margin:0 auto;}
+.yxyxyx_tpbj ul{ margin:0; padding:0;}
+.yxyxyx_tpbj ul li{ width:222px; height:185px; background:url(../images/marketing/yxyxy_tpbgo.gif) no-repeat; text-align:center; padding-top:11px; margin-left:40px; float:left;}
+.yxyxyx_tpbj ul li p{ width:222px; margin:0 auto; margin-top:5px; color:#000;}
+#yxyxyx_tpbjt{width:222px; height:185px; background:url(../images/marketing/yxyxyx_tpbgt.gif) no-repeat; margin-left:40px; float:left;}
+#yxyxyx_tpbjth{width:222px; height:185px; background:url(../images/marketing/yxyxyx_tpbgth.gif) no-repeat; margin-left:40px; float:left;}
+
+
+/*--------------团险简介内容------------------*/
+.txjj{ width:775px; height:130px; background:url(../images/marketing/banner_txjj.jpg) no-repeat;}
+.sygh_icon_a{ width:43px; height:44px; background:url(../images/marketing/txgw_icon.gif) no-repeat;}
+.txjj_con{ width:700px; margin:0 auto; margin-top:20px; text-indent:24px;}
+.txjj_con p{ color:#696969;}
+
+
+
+/*--------------理财顾问内容------------------*/
+.width15{ width:6px; height:100px; float:left;}
+.sygh_icon{ width:43px; height:44px; background:url(../images/marketing/lcgw_icon.gif) no-repeat;}
+.lcgw_k{ width:379px; float:left}
+.lcgw_k_top{ width:379px; height:22px; background:url(../images/marketing/lcgw_ktop.gif) no-repeat; }
+.lcgw_k_con{ width:377px; height:160px; border-left:1px #c9dfed solid; border-right:1px #c9dfed solid;}
+.lcgw_k_bot{ width:379px; height:11px; background:url(../images/marketing/lcgw_kbot.gif) no-repeat;}
+.lcgw_kcon{ width:221px; height:148px; padding-top:4px; border-left:1px #ccdfed solid; border-right:1px #ccdfed solid;}
+.lcgw_tab{ width:331px; margin:0 auto; }
+.lcgw_tab th{ line-height:25px; line-height:20px; text-align:left; color:#777777;}
+.lcgw_tab th span{ line-height:18px; color:#cb1b1b;}
+.lcgw_tab td{ line-height:25px; line-height:20px; color:#777777;}
+.lcgw_tab td span{ line-height:18px; color:#cb1b1b;}
+.lcgw_tab h1{ color:#777777;}
+
+
+
+/*--------------银保专区内容------------------*/
+.ybzq{ width:773px; height:130px; background:url(../images/marketing/banner_ybzq.jpg) no-repeat; margin-left:2px;}
+.ybzq_icon_a{ width:43px; height:44px; background:url(../images/marketing/ybzq_icon.gif) no-repeat;}
+.ybzq_icon_b{ width:43px; height:44px; background:url(../images/marketing/ybzq_icon_b.gif) no-repeat;}
+.ybzq_con{width:735px; margin:0 auto; margin-top:20px;}
+.ybzq_con p{ height:30px; color:#e22a2c;}
+.ybzq_con h3{ width:705px; line-height:18px; margin:0 auto; margin-top:5px; font-weight:normal; font-size:12px; background:url(../images/marketing/gou.gif) no-repeat;color:#1889c3; padding-left:30px; display:block;}
+.ybzq_con h3 span{color:#7f7f7f;}
+.ybzq_wdsel{ margin:15px 0 0 10px; color:#e22a2c; font-weight:normal;}
+
+
+
+/*--------------电销专区专区内容------------------*/
+.dxzq{ width:775px; height:130px; background:url(../images/marketing/banner_dxzq.jpg) no-repeat;}
+.dxzq_icon_a{ width:43px; height:44px; background:url(http://www.ccb-life.com.cn/images/marketing/dxzq_icon.gif) no-repeat;}
+.per_prod_list h1{ width:98%; height:30px; margin:0 auto; line-height:30px; border-bottom:1px #c8c8c8 solid; font-size:14px; padding-left:15px;}
+.dxzq_img{ float:left; padding:1px; border:1px solid #eeeef0; margin-left:10px;}
+
+
+
+.yxqd_icon{ width:44px; height:43px; background:url(../images/marketing/yxqd_icon.gif) no-repeat;}
+
+
+
+
+.club_con_top_bg{ width:731px; height:61px; background:url(http://www.ccb-life.com.cn/images/marketing/club_con_top_bg.gif) no-repeat; padding:30px 0 0 40px; font-size:14px; font-weight:bolder; color:#075493; padding-top:25px\9;}
+.club_con_top_bg span{ color:#e22a2c; margin-left:20px; font-weight:normal;}
+.club_con_top_bg h1{ font-weight:normal;}
+.club_con_select{ width:120px;}
+.club_con_center_bg{ width:765px; height:auto; background-color:#FFF; border-left:#e0e0e0 1px solid; border-right:#e0e0e0 1px solid;}
+.club_con_center_bg ul{ width:730px; height:320px; margin:0 auto; text-align:center;}
+.club_con_center_bg ul li{ width:146px; height:150px; display:block; float:left; list-style:none; margin-left:0px}
+.club_con_center_bg ul li span{ background:#d4e9ec; display:block; width:104px; margin:0 auto; height:21px; line-height:21px;}
+.club_con_center_bg ul li span a { width:104px; height:21px; display:block; text-align:center; line-height:21px; color:#232323; margin:0 auto; text-decoration:none;}
+.club_con_center_bg ul li a:hover{ color:#cb1b1b; text-decoration:underline;}
+.club_con_center_bg ul li p img { display:block; clear:both; width:104px; margin:0 auto; height:129px;}
+.club_con_bot_bg{ width:767px; height:11px; background:url(http://www.ccb-life.com.cn/images/marketing/club_con_bot_bg.gif) no-repeat;}
+.club_con_bg{ width:767px;margin-left:7px; float:left }

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.635" height="18.278" viewBox="0 0 22.635 18.278">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.878;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #40c0fe;
+      }
+
+      .cls-2 {
+        opacity: 0.732;
+      }
+
+      .cls-3 {
+        opacity: 0.8;
+      }
+    </style>
+  </defs>
+  <g id="Group_19_Copy_2" data-name="Group 19 Copy 2" class="cls-1" transform="translate(-0.365 -0.722)">
+    <path id="Combined_Shape" data-name="Combined Shape" class="cls-2" d="M7,7.992a7.008,7.008,0,0,1-7-7V.261A.269.269,0,0,1,.269-.008H.855L6.906,2.839a1,1,0,0,0,.8.021L14,.3v.69A7.008,7.008,0,0,1,7,7.992Z" transform="translate(4 11.008)"/>
+    <path id="Combined_Shape-2" data-name="Combined Shape" class="cls-3" d="M18.635,12.278a2,2,0,0,1,1-1.733V8.353l-8.041,3.283a1,1,0,0,1-.8-.021L.576,6.825a1,1,0,0,1-.041-1.79L9.881.115a1,1,0,0,1,.924,0l10.9,5.614a1,1,0,0,1-.072,1.812v3.008a2,2,0,1,1-3,1.733Z" transform="translate(0.365 0.722)"/>
+  </g>
+</svg>

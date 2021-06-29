@@ -1,0 +1,785 @@
+#zjjx_header {
+	width: 100%;
+	height: 640px;
+	background: url("../image/zjjx01.png") no-repeat ;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#zjjx_header h3 {
+	font-size: 48px;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #FFFFFF;
+	opacity: 1;
+	z-index: 20;
+	padding-left: 376px;
+	padding-top: 261px;
+}
+
+#zjjx_header p {
+	font-size: 20px;
+	font-family: PingFang SC;
+	font-weight: 400;
+	line-height: 28px;
+	color: #FFFFFF;
+	opacity: 1;
+	padding-left: 375px;
+	padding-top: 24px;
+	letter-spacing: 2px;
+}
+
+#zjjx_nav {
+	width: 100%;
+	height: 70px;
+	background: #FFFFFF;
+	box-shadow: 0px 3px 20px rgba(53, 137, 213, 0.1);
+	opacity: 1;
+	text-align: center;
+}
+
+#zjjx_nav ul {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+#zjjx_nav ul li {
+	float: left;
+	font-size: 20px;
+	font-family: PingFang SC;
+	font-weight: 500;
+	line-height: 70px;
+	color: #303133;
+	opacity: 1;
+	margin-right: 46px;
+	/*border-bottom:2px solid #0066B3;*/
+}
+#zjjx_info .zjjx_gsgd ul li:hover{
+	box-shadow: 0px 3px 20px rgba(0, 102, 179, 0.1);
+}
+
+#zjjx_info {
+	width: 1170px;
+	/* 	height: 991px; */
+	 margin: 60px  auto; 
+}
+
+/* 公司简介 */
+#zjjx_info .zjjx_gsjj {
+	display: block;
+}
+
+#zjjx_info h3 {
+	font-size: 32px;
+	font-family: PingFang SC;
+	font-weight: 500;
+	line-height: 45px;
+	color: #303133;
+	opacity: 1;
+	margin-top: 60px;
+        margin-bottom:30px;
+}
+
+#zjjx_info .img1 {
+	margin-top: 30px;
+	display: inline-block;
+}
+
+#zjjx_info .art_right {
+	width: 720px;
+	display: inline-block;
+	float: right;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#zjjx_info .zjjx_gsjj h4 {
+	font-size: 24px;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #1693F1;
+	opacity: 1;
+	display: inline-block;
+}
+
+#zjjx_info .line {
+	width: 108px;
+	height: 4px;
+	background: #1693F1;
+	opacity: 1;
+	margin-top: 15px;
+}
+#zjjx_info .zjjx_gsjj::after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+#zjjx_info .art_right p {
+	font-size: 16px;
+	font-family: PingFang SC;
+	font-weight: normal;
+	line-height: 28px;
+	color: #6A6D72;
+	opacity: 1;
+	margin-top: 30px;
+}
+
+#zjjx_info .art_left {
+	//display: inline-block;
+        width:720px;
+	padding-top: 60px;
+}
+
+#zjjx_info .art_left p {
+	font-size: 16px;
+	font-family: PingFang SC;
+	font-weight: normal;
+	line-height: 28px;
+	color: #6A6D72;
+	opacity: 1;
+}
+
+#zjjx_info .img2 {
+	float: right;
+	margin-top: -38px;
+}
+#zjjx_info .img2,
+#zjjx_info .img1{
+      width: 420px;
+    height: 420px;
+}
+
+/* 公司股东 */
+.zjjx_gsgg{
+       background-color: #F7F8F9;
+}
+#zjjx_info .img2>img,
+#zjjx_info .img1>img,
+#zjjx_info .zjjx_gsgd ul {
+	width: 100%;
+}
+
+#zjjx_info .zjjx_gsgd ul li {
+	width: 1169px;
+	height: 400px;
+	background: #FFFFFF;
+	border: 1px solid #E6E6E6;
+	opacity: 1;
+	margin-top: 30px;
+
+}
+
+#zjjx_info .zjjx_gsgd ul li .gsgd_logo {
+	width: 330px;
+	height: 400px;
+	position: relative;
+	float: left;
+	margin-top: -61px;
+}
+
+#zjjx_info .zjjx_gsgd ul li img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#zjjx_info .zjjx_gsgd .info_right {
+	margin-top: 60px;
+	margin-left: 63px;
+}
+
+#zjjx_info .zjjx_gsgd ul li h4 {
+	font-size: 18px;
+	font-family: PingFang SC!important;
+	font-weight: bold;
+	line-height: 25px;
+	color: #303133;
+	opacity: 1;
+	margin-bottom: 30px;
+}
+
+#zjjx_info .zjjx_gsgd ul li p {
+	font-size: 16px;
+	font-family: PingFang SC;
+	font-weight: 400;
+	line-height: 28px;
+	color: #6A6D72;
+	opacity: 1;
+	width: 780px;
+	word-wrap: break-word;
+	word-break: break-all;
+	overflow: hidden;
+}
+
+/* 公司品牌 */
+
+#zjjx_info{
+	position: relative;
+}
+.swiper-button-prev{
+	position: absolute;
+	left: 280px;
+	top: 442px;
+}
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      /* display: flex; */
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+	
+#zjjx_info .zjjx_gspp .swiper-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.back {
+	width: 1170px;
+	height: 658px;
+}
+
+.video {
+	position: absolute;
+	top: 259px;
+	left: 515px;
+	z-index: 99;
+}
+
+/* 企业文化 */
+.zjjx_qywh {
+	background-color: #FFFFFF;
+}
+
+.zjjx_qywh .box1 {
+	width: 1168px;
+	height: 538px;
+	border: 1px solid #E6E6E6;
+	opacity: 1;
+	margin-top: 30px;
+}
+
+.zjjx_qywh .qywh {
+	float: left;
+	width: 568px;
+	height: 568px;
+	margin-right: 30px;
+       display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+}
+
+.zjjx_qywh li {
+	width: 270px;
+	height: 240px;
+	background: #FFFFFF;
+	float: left;
+}
+
+.zjjx_qywh .icon {
+	width: 60px;
+	margin-left: 18px;
+	margin-top: 37px;
+}
+
+#zjjx_info .zjjx_qywh h3 {
+	font-size: 32px;
+	font-family: PingFang SC;
+	font-weight: 500;
+	line-height: 15px;
+	color: #303133;
+	opacity: 1;
+	margin-left: 18px;
+	margin-top: 30px;
+}
+
+.zjjx_qywh p {
+	width: 234px;
+	font-size: 16px;
+	font-family: PingFang SC;
+	font-weight: normal;
+	line-height: 22px;
+	color: #6A6D72;
+	opacity: 1;
+	margin-left: 18px;
+	margin-top: 9px;
+}
+.zjjx_qywh .box1,
+.zjjx_qywh .box2{
+  overflow: hidden;
+}
+.zjjx_qywh .box1 .pic1,
+.zjjx_qywh .box2 .pic2{
+	height: 100%;
+	width: 570px;
+}
+.zjjx_qywh .box1 .pic1 img,
+.zjjx_qywh .box2 .pic2 img{
+    object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+.zjjx_qywh .box1 .pic1 {
+	float: right;
+}
+
+.zjjx_qywh .box2 .pic2 {
+	float: left;
+}
+
+.zjjx_qywh .box2 {
+	width: 1170px;
+	height: 540px;
+	border: 1px solid #E6E6E6;
+	opacity: 1;
+	margin-top: 30px;
+}
+
+.zjjx_qywh .qywh2 {
+	float: right;
+	width: 568px;
+	height: 100%;
+	display: flex;
+    flex-wrap: wrap;
+}
+
+/* 公司动态 */
+.zjjx_gsdt {
+	background: #FFFFFF;
+}
+
+.gsdt_nav {
+	width: 100%;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.gsdt_nav ul {
+	margin-top: 30px;
+}
+
+.outer {
+	zoom: 1;
+}
+
+.outer:after {
+	clear: both;
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.gsdt_nav ul li {
+	float: left;
+        height: 39px;
+        margin-right:65px;
+        padding-bottom: 14px;
+}
+.gsdt_nav ul li  a {
+       font-size: 18px;
+font-family: PingFang SC;
+font-weight: 500;
+line-height: 32px;
+color: #303133;
+
+}
+.active12{
+	border-bottom: 2px solid #005BAC;
+}
+
+.gsdt_nav .nav {
+	font-size: 18px;
+	font-family: PingFang SC;
+	font-weight: 500;
+	line-height: 32px;
+	color: #303133;
+	opacity: 1;
+	/* float: left; */
+	margin-right: 65px;
+}
+.gsdt_list .artical{
+	height: 140px;
+         background-image: url("../image/jb_biack_hui.png") ;
+         background-repeat: no-repeat;
+	background-position: 1096px center;
+        background-size: 44px;
+}
+.gsdt_list .artical:hover{
+	background-color: #E1F5FE;
+        background-image: url("../image/dt_icon.png")  ;
+	background-repeat: no-repeat;
+}
+.gsdt_list .artical div {
+	float: left;
+}
+
+.data_left {
+	width: 114px;
+	height: 114px;
+	border: 1px solid #FF6600;
+	opacity: 1;
+	margin-left: 10px;
+	margin-top: 12px;
+}
+
+.data_left .day {
+	font-size: 64px;
+	font-family: PingFang SC;
+	font-weight: normal;
+	line-height: 50px;
+	color: #FF6600;
+	opacity: 1;
+	margin-left: 20px;
+	margin-top: 24px;
+}
+
+.data_left .year {
+	height: 22px;
+	font-size: 16px;
+	font-family: PingFang SC;
+	font-weight: normal;
+	line-height: 25px;
+	color: #FF6600;
+	opacity: 1;
+	margin-left: 25px;
+	margin-bottom: 15px;
+}
+
+.art_center {
+	width: 844px;
+	margin-left: 50px;
+	margin-top: 39px;
+}
+
+.art_center h4 {
+	font-size: 18px;
+	font-family: PingFang SC;
+	font-weight: 500;
+        overflow: hidden;
+	line-height: 32px;
+	color: #303133;
+	opacity: 1;
+}
+
+.art_center p {
+	font-size: 16px;
+	font-family: PingFang SC;
+	font-weight: 400;
+	line-height: 32px;
+	color: #6A6D72;
+	opacity: 1;
+	margin-top: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.logo_right {
+	position: absolute;
+
+}
+
+/* 社会责任报告 */
+
+ .social .swiper-container {
+      width: 100%;
+      height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+ .social .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      height: calc((100% - 30px) / 2);
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+.social .swiper-slide li {
+	margin-top: 30px;
+	margin-right: 30px;
+	width: 370px;
+	height: 500px;
+	float: left;
+}
+
+.social .swiper-pagination {
+	margin: 30px auto;
+}
+
+/* 公司荣誉 */
+
+
+/* 联系我们 */
+.concatme {
+	background: url("../image/map.png") no-repeat ;
+	background-repeat: no-repeat;
+	background-position: 270px
+	135px;
+}
+
+.concatme .phone {
+	font-size: 24px;
+	font-family: PingFang SC;
+	font-weight: bold;
+	line-height: 28px;
+	color: #333333;
+	opacity: 1;
+	margin-top: 60px;
+}
+
+.concatme input {
+	width: 280px;
+	height: 40px;
+	background: #FFFFFF;
+	border: 1px solid #E6E6E6;
+	opacity: 1;
+	margin-top: 30px;
+	padding-left: 20px;
+}
+
+.concatme .company {
+	width: 520px;
+	height: 520px;
+	background: #FFFFFF;
+	box-shadow: 0px 3px 20px rgba(0, 102, 179, 0.1);
+	opacity: 0.5;
+	margin-top: 245px;
+}
+
+.company h6 {
+	font-size: 16px;
+	font-family: PingFang SC;
+	font-weight: 500;
+	line-height: 66px;
+	color: #303133;
+	opacity: 1;
+}
+
+.company .addr {
+	width: 452px;
+	height: 318px;
+	background: #FFFFFF;
+}
+
+.company p {
+	font-size: 16px;
+	font-family: PingFang SC;
+	font-weight: 400;
+	line-height: 36px;
+	color: #333333;
+	opacity: 0.8;
+}
+
+
+.footer_page {
+	width: 336px;
+	height: 30px;
+}
+.footer_page a{
+	width: 31px;
+	height: 30px;
+	background: #FFFFFF;
+	border: 1px solid #E6E6E6;
+	opacity: 1;
+}
+.font {
+	width: 90px;
+	height: 30px;
+	background: #FFFFFF;
+	border: 1px solid #E6E6E6;
+	opacity: 1;
+}
+
+.current_hhm {
+	border-bottom: 2px solid #0066B3;
+}
+.footer_page{
+        display:none;
+}
+.gsdt_contain {
+    padding-top:30px;
+}
+	/* 移动端适配 */
+@media screen and (max-width: 750px) {
+	.zjjx_p_ul{
+		width: 100%;
+    }
+	/* 公司简介 */
+	#zjjx_info .zjjx_gsjj{
+		display: block;
+		padding: 0 0.94rem;
+    	box-sizing: border-box;
+	}
+	/* 公司股东 */
+	.zjjx_gsgd{
+		width: 100%;
+	}
+    /******联系我们*********/
+    #zjjx_info h3 {
+        font-size: 1.125rem;
+        font-weight: 500;
+        line-height: 2.8125rem;
+        color: #303133;
+        opacity: 1;
+        margin-top: 1.875rem;
+        margin-bottom: 0rem;
+    }
+    .gsdt_nav{
+        width:100%;
+        overflow-x: scroll
+    }
+    .all{
+		display: none;
+        font-size: 14px;
+        font-family: PingFang SC;
+        font-weight: 400;
+        line-height: 32px;
+        color: #9DA1A9;
+    }
+    .gsdt_nav ul li{
+        margin-right: 2rem;
+        padding-bottom:0.4375rem;
+        height:auto;
+        display: inline-block;
+        float: none;
+    }
+    .gsdt_nav ul li a {
+        font-size: 0.875rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        line-height: 2rem;
+        color: #303133;
+    }
+    #zjjx_info {
+        width:100%;
+        margin: 30px auto;
+    }
+    #tab5 {
+        padding:0 1.5625rem;
+    }
+    .art_center {
+        width: 11.5rem;
+        margin-left: 1.5625rem;
+        margin-top: 0;
+    }
+    .data_left {
+        width: 7.125rem;
+        height: 7.125rem;
+        border: 1px solid #FF6600;
+        opacity: 1;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .art_center h4 {
+        font-size:0.875rem;
+        line-height:1.25rem;
+        overflow: hidden;
+        height: 2.6rem;
+        white-space: pre-wrap;
+    }
+    .art_center p {
+        font-size: 0.75;
+        font-family: PingFang SC;
+        font-weight: 400;
+        line-height: 1.0625rem;
+        color: #6A6D72;
+        opacity: 1;
+        margin-top: 0.375rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .gsdt_list .artical {
+        height: 140px;
+        background-repeat: no-repeat;
+        background-position: 9.0625rem 5.3125rem;
+        background-size:1.625rem 1.625rem;
+        display:flex;
+    }
+	#zjjx_info .img1{
+		width: 100%;
+		margin-top: 0px;
+height:auto;
+	}
+	#zjjx_info .img1 img{
+		width: 100%;
+		height: 12.125rem;
+		object-fit: cover;
+	}
+	#zjjx_info .art_right{
+		display: contents;
+	}
+	#zjjx_info .zjjx_gsjj h4{
+		font-size: 0.875rem;
+		margin-top: 0.875rem;;
+	}
+	#zjjx_info .line{
+		height: 2px;
+		margin-top: 4px;
+	}
+	#zjjx_info .art_right p{
+		font-size: 0.75rem;
+		margin-top: 0.94rem;
+		width: 100%;
+	}
+	#zjjx_info .art_left p{
+		font-size: 0.75rem;
+		margin-top: 0.94rem;
+	}
+	#zjjx_info .img2{
+		float: inherit;
+                 height:auto;
+               width: 100%;
+		margin-top: 0.94rem;
+	}
+	#zjjx_info .img2 img{
+		width: 100%;
+		height: 12.125rem;
+		object-fit: cover;
+	}
+	#zjjx_info .art_left{
+		padding-top: 0px;
+               width:100%
+	}
+	.jx_nr {
+		width: 100%;
+		margin: auto;
+	}
+	
+}

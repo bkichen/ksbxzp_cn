@@ -1,0 +1,135 @@
+/* 
+h3{
+	width: 128px;
+	height: 45px;
+	font-size: 32px;
+	font-family: PingFang SC;
+	font-weight: 500;
+	line-height: 45px;
+	color: #303133;
+	opacity: 1;
+	margin-top: 60px;
+} */
+.jx_nr{
+	width: 1210px;
+	margin: auto;
+}
+.tabimg
+{
+	width: 210px;
+	height: 504px;
+	background: #303133;
+	margin: 30px 30px 0px 0;
+	float: left;
+}
+.tabimg:hover{
+  box-shadow: 0px 3px 20px rgb(0 102 179 / 10%);
+}
+.tabimg  .iamge{
+       width:210px;
+       height:326px;
+       overflow:hidden;
+}
+.tabimg img{
+	width: 100%;
+	height: 100%;
+	transition: all 0.4s ease-out;
+}
+
+.table_card li:hover img{
+	 transform:scale(1.05);
+}
+.jx_font{
+	width: 210px;
+	height: 180px;
+	text-align: center;
+}
+.jx_font h4{
+	font-size: 20px;
+	font-family: PingFang SC;
+	font-weight: 500;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin-top: 30px;
+}
+.jx_font span{
+	display: inline-block;
+	width: 80px;
+	height: 1px;
+	background: #FFFFFF;
+}
+.jx_font p{
+	display: inline-block;
+	width: 172px;
+	height: 52px;
+	margin-top: 22px;
+	font-size: 16px;
+	font-family: PingFang SC;
+	font-weight: normal;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+
+
+@media screen and (max-width:759px){
+    #tab5 {
+    padding: 0 0.9375rem;
+}
+    .jx_nr {
+		width: 100%;
+		margin: auto;
+	}
+	#zjjx_info {
+		width: 100%;
+	    margin: 0rem 0rem; 
+	}
+	.outer {
+		width: 39.375rem;
+		height: 2.5625rem;
+	}
+	.jx_font h4 {
+		font-size: 0.9375rem;
+		font-family: PingFang SC;
+		font-weight: 500;
+		line-height: 1.3125rem;
+		color: #FFFFFF;
+		margin-top: 2.3125rem;
+	}
+	.jx_font p {
+		display: inline-block;
+		width: 8.4375rem;
+		height: 2.5625rem;
+		margin-top: 1.375rem;
+		font-size: 1rem;
+		font-family: PingFang SC;
+		font-weight: normal;
+		line-height: 1.375rem;
+		color: #FFFFFF;
+	}
+	
+	.tabimg {
+		width: 10.3125rem;
+		height: auto;
+		background: #303133;
+		box-shadow: 0px 3px 20px rgb(0 102 179 / 10%);
+		margin: 0.9375rem 0.9375rem 0.9375rem 0;
+		float: left;
+	}
+       .tabimg:nth-child(even){
+		margin-right:0;
+	}
+	.tabimg .iamge {
+		width: 10.3125rem;
+		height: 16rem;
+		overflow: hidden;
+	}
+	.tabimg .jx_font{
+        width:100%;
+		height:10.875rem;
+
+	}
+       .xwzx-fenye{
+       display:none;
+}
+
+}

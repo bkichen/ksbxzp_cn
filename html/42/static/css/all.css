@@ -1,0 +1,171 @@
+*{
+  margin:0;
+  padding:0;
+}
+.PHONE{
+display: none;
+}
+@media screen and (max-width: 750px){
+.PHONE{
+display: block;
+
+}
+.PC{
+display: none !important;
+}
+}
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,a,input,dl,dt,dd,span,em,table,tr,td,div,strong,textarea  {
+  margin:0;
+  padding:0;
+}
+select{
+  font-family:"PingFang SC";
+}
+body {
+  font-family:"PingFang SC","FZZhengHeiS-B-GB";
+  color:#444c67;
+  font-size:14px;
+  margin:0 auto;
+  position:relative;
+}
+body,html{
+width:100%;
+}
+img,iframe {
+  border:none;
+}
+ol,ul,ol li,ul li {
+  list-style:none;
+}
+a {
+  color: #444c67;
+  text-decoration:none;
+}
+/* //	.jx-dh-footer{
+//		width: 100%;
+//		height: 300px;
+//		background: #005BAC;
+//		opacity: 1;
+//	}
+
+//	.footer_left{
+//		float: left;
+//	}
+  .footer_left .copyright{
+    font-size: 12px;
+    font-family: PingFang SC;
+    font-weight: 300;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-top: 35px;
+  }
+//	.footer_center{
+//		float: left;
+//		text-align: center;
+//		padding-top: 76px;
+//		margin-left: 90px;
+//	}
+//	.footer_center .code{
+//		padding-left: 90px;
+//		padding-right: 90px;
+//		border-left: 1px solid rgba(255, 255, 255, 0.10196078431372549);
+//		border-right: 1px solid rgba(255, 255, 255, 0.10196078431372549);
+//	}
+//	.footer_center .code .inside{
+//		width: 120px;
+//		height: 148px;
+//		background: #FFFFFF;
+//		opacity: 1;
+//		position: relative;
+//	}
+//	.footer_center .code .inside p{
+//		font-size: 14px;
+//		font-family: PingFang SC;
+//		font-weight: 400;
+//		color: #303133;
+//		opacity: 1;
+//		position: absolute;
+//		left: 25px;
+//		bottom: 10px;
+//	}
+//	.footer_right{
+//		float: left;
+//	}
+//	.footer_right input{
+//		width: 172px;
+//		height: 35px;
+//		border: 0;
+//		background-color:transparent; 
+//		font-size: 14px;
+//		font-family: PingFang SC;
+//		font-weight: 400;
+//		line-height: 32px;
+//		color: #FFFFFF;
+//		opacity: 1;
+//		float: left;
+//	} */
+  input::-webkit-input-placeholder { /* WebKit browsers */ 	
+    font-size: 14px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 1;		
+    padding-left: 20px !important;
+  } 	
+/* //	.footer_right .footer_select{
+//		height: 35px;
+//		background: #005BAC;
+//		border: 1px solid #E6E6E6;
+//		opacity: 1;
+//		display: inline-block;
+//		position: relative;
+//	}
+//	.footer_right .footer_select img{
+//		position: absolute;
+//		left: 145px;
+//		top: 15px;
+//	}
+//	.footer_right .footer_search{
+//		height: 35px;
+//		background: #005BAC;
+//		border: 1px solid #E6E6E6;
+//		opacity: 1;
+    
+//	}
+//	.footer_right{
+//		padding-left: 90px;
+//		padding-top: 105px;
+//	}
+//	.footer_right .footer_search{
+//		margin-top: 20px;
+//	}
+//	.footer_right button{
+//		float: left;
+//		width: 56px;
+//		height: 35px;
+//		background: #F4F4F4;
+//		opacity: 1;
+//		display: inline-block;
+//		outline: none;
+//		border: none;
+//		font-size: 14px;
+//		font-family: PingFang SC;
+//		font-weight: 400;
+//		line-height: 32px;
+//		color: #0066B3;
+//		opacity: 1;
+//	} */
+.qr img{
+ width:100%;
+}
+/* 清除浮动 */
+
+  .clearfix:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+      content: "";
+      display: block;
+      height: 0;
+      clear:both;
+      visibility: hidden;
+  }

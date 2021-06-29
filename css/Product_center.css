@@ -1,0 +1,14 @@
+
+/* CSS Document */
+
+
+/*---------------- 产品中心 ----------------*/
+.cpzx_nr{ width:352px; height:151px; float:left; margin-left:23px;_margin-left:10px;}
+.cpzx_right{ width:332px; height:32px; background:url(../images/cpzx/cpzx_2.gif) no-repeat; padding:20px 0 0 20px; font-size:20px; color:#328ed4; }
+.cpzx_right_top{ width:352px; height:99px; background:url(../images/cpzx/cpzx_3.gif) no-repeat;}
+.cpzx_right_top span{ display:block;float:right; }
+.cpzx_right_wz{ font-size:12px; color: #333; padding:10px 0 0 20px; line-height:18px;}
+.cpzx_right_bt{font-size:18px; color:#00F; font-weight:bold; padding:20px;}
+.cpzx_right_wz span{ display:block; float:left; margin-left:130px; *margin-left:150px; _margin-left:75px; margin-top:-20px; margin-top:-19px\0;}
+.cpzx_tight_tb{ width:109px; height:85px; background:url(../images/cpzx/cpzx_4.gif) no-repeat; float:right;}
+.cpzx_right_img{width:73px;height:20px;position:absolute;left: 418px;top: 310px;}

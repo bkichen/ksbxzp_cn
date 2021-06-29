@@ -1,0 +1,384 @@
+body {
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+    color: #000;
+    overflow: hidden;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+form {
+    display: block;
+    margin-top: 0;
+}
+.wrapper {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+.ng-scope-bg{
+    width: 100%;
+    height: 100%;
+    background: url("../images/form/bg_pc.jpg") no-repeat center 0;
+    background-size: 100% 100%;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.head-img{
+    height: 40px;
+}
+.head-img img{
+    position: absolute;
+    top: 20px;
+    left: -50px;
+    width: 240px;
+    vertical-align: middle;
+}
+.invoice-login {
+    margin: 15px auto 15px;
+    width: 438px;
+    height: 200px;
+    padding: 25px 58px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 3px rgba(0,0,0,.5);
+    font-size: 14px;
+    overflow-y: scroll;
+    overflow-style: auto;
+    display: flex;
+    min-height: 600px;
+    flex-direction: column;
+    flex: 1;
+}
+.invoice-login::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 5px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+}
+.invoice-login::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .05);
+    border-radius: 4px;
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1);
+}
+
+.invoice-title {
+    position: relative;
+    padding-bottom: 30px;
+    line-height: 30px;
+}
+.invoice-bg .invoice-container .invoice-login .invoice-title p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.invoice-bg .invoice-container .invoice-login .form-group input {
+    width: 295px;
+    height: 34px!important;
+    padding: 0 0 0 20px!important;
+}
+.invoice-bg .invoice-container .invoice-login .form-group select {
+    width: 295px;
+    height: 34px!important;
+    padding: 0 0 0 20px!important;
+    font-size: 14px;
+}
+.invoice-bg .invoice-container .invoice-login .common-input-text {
+    position: relative;
+    z-index: 2;
+    height: 44px;
+    padding-left: 16px;
+    font-size: 14px;
+    background-color: transparent;
+}
+.form-group{
+    margin-left: 0;
+}
+#checkcode{
+    width: 150px;
+}
+.checkcodediv{
+    position: relative;
+    min-height: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#submit,#returnVerfyCode{
+    color: #fff;
+    background: #1693f1;
+    height: 34px!important;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.or-code{
+    display:block;
+    bottom:10%;
+    right:10%;
+    width:200px;
+    line-height:30px;
+    position:fixed;
+}
+@media screen and (min-width: 960px) and (max-width: 1199px)  {
+    /*ipad pro*/
+    * {margin: 0; padding: 0;}
+    html,body{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;top: 0;
+        overflow: hidden;
+        overflow-y: auto;
+        background-color: #fff;
+    }
+    .head-img {
+        display: none;
+    }
+    .or-code {
+        display: none;
+    }
+    .invoice-login {
+        margin: 0 ;
+        width: 110%;
+        background-color: transparent;
+        font-size: 14px;
+        border-radius: 0;
+        box-shadow: 0 0 0 0;
+    }
+    .ng-scope-bg{
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        background: url("../images/form/bg_ipad.png") no-repeat center 0;
+        background-size: 100% 100%;
+    }
+    .form-group{
+        margin-left: 33.33% !important;
+        margin-top: 5px !important;
+    }
+
+    .invoice-title > p{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 959px)  {
+    /*ipad*/
+    * {margin: 0; padding: 0;}
+    html,body{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;top: 0;
+        overflow: hidden;
+        overflow-y: auto;
+        background-color: #fff;
+    }
+    .head-img {
+        display: none;
+    }
+    .or-code {
+        display: none;
+    }
+    .invoice-login {
+        margin: 0 auto;
+        width: 100%;
+        background-color: transparent;
+        font-size: 14px;
+        border-radius: 0;
+        box-shadow: 0 0 0 0;
+    }
+    .ng-scope-bg{
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        background: url("../images/form/bg_ipad.png") no-repeat center 0;
+        background-size: 100% 100%;
+    }
+    .form-group{
+        margin-left: 33.33% !important;
+        margin-top: 5px !important;
+    }
+    .invoice-title > p{
+        display: none;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px)  {
+    * {margin: 0; padding: 0;}
+    html,body{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;top: 0;
+        overflow: hidden;
+        overflow-y: auto;
+        background-color: #fff;
+    }
+    .head-img {
+        display: none;
+    }
+    .or-code {
+        display: none;
+    }
+    .invoice-login {
+        margin: 0 ;
+        width: 100%;
+        background-color: transparent;
+        font-size: 14px;
+        border-radius: 0;
+        box-shadow: 0 0 0 0;
+    }
+    .ng-scope-bg{
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        background: url("../images/form/bg_ipad.png") no-repeat center 0;
+        background-size: 100% 100%;
+    }
+    .form-group{
+        margin-left: 20% !important;
+        margin-top: 2px !important;
+    }
+
+    .clearfix{
+        margin-left: -20%;
+    }
+    .invoice-title > p{
+        display: none;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 479px)   {
+    /*iphoneX样式*/
+    * {margin: 0;
+       padding: 0;}
+    html,body{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;top: 0;
+        overflow: hidden;
+        overflow-y: auto;
+        background-color: #fff;
+    }
+
+    select{
+        -webkit-appearance:none;
+        appearance:none;
+        border:none;
+        display:block;
+        -webkit-box-sizing:border-box;
+        box-sizing:border-box;
+        background-color: #FFFFFF;
+        color:#333333;
+        border-radius:4px;
+    }
+
+    .invoice-title > p{
+        display: none;
+    }
+    .head-img {
+        display: none;
+    }
+    .or-code {
+        display: none;
+    }
+    .invoice-login {
+        margin: 0 ;
+        width: 100%;
+        background-color: transparent;
+        font-size: 14px;
+        border-radius: 0;
+        box-shadow: 0 0 0 0;
+    }
+    .ng-scope-bg{
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        background: url("../images/form/bg_iphone.png") no-repeat center 0;
+        background-size: 100% 100%;
+    }
+
+    .form-group{
+        margin-left: -4% !important;
+        margin-top: 2px !important;
+    }
+    .clearfix{
+        margin-left: -70%;
+    }
+    .invoice-title > p{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 320px)   {
+    /*iphoneX样式*/
+    * {margin: 0; padding: 0;}
+    html,body{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;top: 0;
+        overflow: hidden;
+        overflow-y: auto;
+        background-color: #fff;
+    }
+    .head-img {
+        display: none;
+    }
+    .or-code {
+        display: none;
+    }
+    .invoice-login {
+        margin: 0 ;
+        width: 100%;
+        background-color: transparent;
+        font-size: 14px;
+        border-radius: 0;
+        box-shadow: 0 0 0 0;
+    }
+    .ng-scope-bg{
+        width: 100%;
+        height: 100%;
+        background: url("../images/form/bg_iphone.png") no-repeat center 0;
+        background-size: 100% 100%;
+        background-color: #fff;
+    }
+    .invoice-title > p{
+        display: none;
+    }
+    .form-group{
+        margin-left: -9% !important;
+        margin-top: 2px !important;
+    }
+    .clearfix{
+        margin-left: -75%;
+    }
+
+}
+
+

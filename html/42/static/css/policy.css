@@ -1,0 +1,64 @@
+.common_header {
+  height: 480px;
+}
+.common_header > img {
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  display: block;
+  color: #303133;
+}
+
+.policyChange {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #e6e6e6;
+}
+.policyChange > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 213px;
+}
+.policyChange > a p {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 750px) {
+  .common_header {
+    height: 21.875rem;
+  }
+
+  .policyChange {
+    border: none;
+  }
+  .tuantipolicy >a:nth-child(1) {
+    height: 95px !important;
+  }
+  .tuantipolicy >a:nth-child(3) {
+    height: 96px !important;
+  }
+  .policyChange > a:nth-child(1) {
+    height: 94px;
+  }
+  .policyChange > a {
+    width: 25%;
+    height: 5.9375rem;
+  }
+  .policyChange > a img {
+    width: 2.1875rem;
+  }
+  .policyChange > a p {
+    padding: 0 0.5625rem;
+    margin-top: 0.625rem;
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: 300;
+  }
+}

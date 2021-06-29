@@ -1,0 +1,379 @@
+ * {
+    margin: 0;
+    padding: 0;
+  }
+  .bx_detail_bottom {
+    z-index: 99;
+    border: 1px solid #e6e6e6;
+    position: fixed;
+    bottom: 0;
+
+    left: 0;
+    background: #fff;
+    padding: 0px 1rem;
+    box-sizing: border-box;
+  }
+  .bx_banner {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .bx_banner_shandow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .bx_banner_img {
+    width: 100%;
+  }
+
+  .bx_banner_word {
+    display: none;
+    /* position: absolute;
+    top: 160px;
+    left: 380px; */
+  }
+
+  .bx_banner_title {
+    /* font-size: 48px;
+    color: #fff;
+    font-weight: 500; */
+  }
+
+  .bx_banner_desc {
+    /* font-size: 20px;
+    color: #fff;
+    margin-top: 20px; */
+  }
+
+  .bx_body {
+    width: 100%;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    background: #f7f8f9;
+  }
+
+  .bx_content {
+    width: 80%;
+    position: relative;
+    margin-top: -7%;
+    left: 10%;
+  }
+
+  .bx_detail_title {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .bx_detail_topbox {
+    width: 100%;
+    display: flex;
+
+    background: #fff;
+    position: relative;
+  }
+
+  .bx_detail_img {
+    width: 40%;
+  }
+
+  .bx_detail_img img {
+    width: 100%;
+  }
+
+  .bx_detail_word {
+    flex: 1;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+
+  .bx_detail_word_title {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .bx_detail_word_desc {
+    font-size: 18px;
+    color: #6a6d72;
+    line-height: 32px;
+    margin: 10px 0;
+    width: 50%;
+  }
+
+  .bx_detail_iconbox {
+    width: 80%;
+  }
+
+  .bx_detail_iconbox_list {
+    padding: 0 15% 0 0;
+    display: flex;
+    float: left;
+    margin: 10px 0;
+  }
+
+  .bx_detail_iconbox_list img {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+  .bx_detail_iconbox_list span {
+    font-size: 20px;
+    color: #6a6d72;
+  }
+
+  .bx_detail_buttonbox {
+    width: 180px;
+    height: 40px;
+    background: #0066b3;
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    margin-top: -20px;
+  }
+
+  .bx_detail_btobox {
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    background: #fff;
+  }
+
+  .bx_detail_tabs {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #e6e6e6;
+    word-wrap: normal;
+    display: flex;
+  }
+
+  .bx_detail_tabs li {
+    list-style: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    margin-right: 55px;
+    line-height: 55px;
+    cursor: pointer;
+  }
+
+  .bx_detail_tabs_active {
+    border-bottom: 2px solid #005bac;
+  }
+
+  .bx_detail_btobox_word {
+    width: 100%;
+    margin-top: 20px;
+    min-height: 150px;
+    display: none;
+  }
+
+  .bx_detail_btobox_word_active {
+    display: block;
+  }
+
+  .bx_detail_btobox_wordlist {
+    display: flex;
+    color: #6a6d72;
+    font-size: 20px;
+    margin: 15px 0;
+  }
+
+  .bx_detail_btobox_wordtitle {
+    margin-right: 40px;
+    line-height: 40px;
+  }
+
+  .bx_detail_bottom {
+    display: none;
+  }
+
+  table {
+    border: none;
+    text-align: center;
+    border-collapse: collapse;
+    line-height: 32px;
+    width: 100%;
+  }
+
+  table td {
+    border: 1px solid #ddd;
+    border-spacing: 0px;
+    padding: 10px 20px;
+    color: #6a6d72;
+  }
+  tr:first-child td {
+    color: #000;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: 1440px) {
+    .bx_content {
+      top: 13%;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .bx_detail_iconbox_list {
+      padding: 0 5%;
+    }
+    .bx_banner_word{
+      display: block;
+      top: 9rem;
+    }
+    /* .bx_detail_banner{
+            display: none;
+        } */
+    .bx_banner {
+      height: 21.875rem;
+    }
+    table td {
+      border: 1px solid #ddd;
+      border-spacing: 0px;
+      padding: 0px;
+      color: #6a6d72;
+    }
+    .bx_detail_banner2 {
+      height: 100%;
+    }
+
+    .bx_detail_content {
+      padding: 0;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: static;
+    }
+
+    .bx_detail_title {
+      display: none;
+    }
+
+    .bx_detail_topbox {
+      flex-direction: column;
+      height: auto;
+    }
+
+    .bx_detail_img {
+      width: 100%;
+      position: relative;
+    }
+
+    .bx_detail_img_mb {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: -0.24rem;
+      left: 0;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .bx_detail_word {
+      padding: 1.875rem 0.94rem;
+    }
+
+    .bx_detail_word_title {
+      font-size: 1.125rem;
+    }
+
+    .bx_detail_word_desc {
+      font-size: 0.875rem;
+      margin: 0.31rem 0;
+      line-height: 1.5rem;
+      width: 100%;
+    }
+
+    .bx_detail_iconbox {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .bx_detail_iconbox_list img {
+      width: 1rem;
+      margin-top: 0.17rem;
+      height: 1rem;
+    }
+
+    .bx_detail_iconbox_list span {
+      font-size: 0.875rem;
+    }
+
+    .bx_detail_buttonbox {
+      width: 100%;
+      height: 2.375rem;
+      font-size: 0.875rem;
+      line-height: 2.375rem;
+      margin: 1.3rem 0;
+      position: static;
+    }
+
+    .bx_detail_btobox {
+      padding: 0.94rem 0.94rem;
+      margin-top: 0rem;
+    }
+
+    .bx_detail_tabs {
+      height: 1.875rem;
+
+      overflow: auto;
+    }
+
+    .bx_detail_tabs li {
+      list-style: none;
+      color: #000;
+      white-space: nowrap;
+      font-weight: 500;
+      margin-right: 2rem;
+      line-height: 1.2rem;
+      cursor: pointer;
+      font-size: 0.875rem;
+    }
+
+    .bx_detail_btobox_word {
+      margin-top: 1rem;
+      overflow: auto;
+    }
+
+    .bx_detail_btobox_wordlist {
+      font-size: 0.875rem;
+      margin: 0.6rem 0;
+    }
+
+    .bx_detail_btobox_wordtitle {
+      margin-right: 0px;
+      width: 100% !important;
+      line-height: 30px;
+    }
+
+    .bx_detail_btobox_worddesc {
+      flex: 1;
+    }
+
+    .bx_detail_bottom {
+      width: 100%;
+    }
+
+    .bx_body {
+      height: auto;
+    }
+  }
+
+  .bx_detail_buttonbox {
+    cursor: pointer;
+  }

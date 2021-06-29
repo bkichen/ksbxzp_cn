@@ -1,0 +1,173 @@
+* {
+  font-family: PingFang SC;
+}
+.dis{
+  display: none !important;
+}
+.w_170 {
+  width: 1170px;
+  margin: 0 auto;
+}
+.hder {
+  border-bottom: 2px solid #e6e6e6;
+  background: #ffffff;
+  justify-content: space-between;
+  font-size: 20px;
+  height: 70px;
+  line-height: 70px;
+}
+.PHONE{
+  display: none;
+}
+.claim_al > a h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+ }
+@media screen and (max-width: 1169px) {
+  .hder{
+    box-sizing:border-box;
+  } 
+  .w_170{
+    width: 100%;
+  }
+  img{
+    object-fit: cover
+  }
+}
+@media only screen and (max-width: 750px) {
+  .PHONE{
+    display: block;
+  }
+  .hder {
+    height: 3.125rem;
+    line-height: 3.125rem;
+    font-size:  0.875rem;
+    font-weight: 500;
+  }
+  .pl_paging{
+    display: none !important;
+  }
+  #PHONE_data{
+    margin-bottom: 1.875rem;
+  }
+  div.xwzx-fenye.clear.pagination{
+    display: none;
+  }
+  div.PHONE.ph_more{
+    display: block;
+    text-align: center;
+    margin-bottom: 1.875rem;
+  }
+  div.PHONE.ph_more a{
+    color: #fff;
+    display: block;
+    width: 5.5rem;
+    margin: 0 auto;
+    line-height: 1.625rem;
+    height: 1.625rem;
+    background: #0066b3;
+    font-size: 0.75rem;
+  }
+}
+i.icu_right::after {
+  display: block;
+  content: "";
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  background-image: url("../image/jb_biack.png");
+  background-size: 100% 100%;
+}
+
+.img > img {
+  width: 100%;
+  height: 100%;
+}
+.b_30 {
+  margin-bottom: 30px;
+}
+.t_30 {
+  margin-top: 30px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.NAV > span:not(:last-child)::after {
+  content: ">";
+  display: inline-block;
+  margin: 0 2px 0 8px;
+}
+
+.gs_zlky .icu_right::after {
+  background-size: 100% 100%;
+  cursor: pointer;
+  display: block;
+  height: 44px;
+  content: "";
+  width: 44px;
+  background-image: url("../image/jb_biack_hui.png");
+}
+.gs_zlky p:hover .icu_right::after {
+  background-image: url("../image/jb_biack_lan.png");
+}
+
+.common_list_ctain p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 30px;
+}
+.common_list_ctain div>p:hover,
+.common_list_ctain .cont p:hover {
+  background: rgba(133, 197, 255, 0.2);
+}
+.common_list_ctain .head:hover {
+  background: #fff;
+}
+.common_list_ctain >.headtop>span{
+     font-size: 18px;
+     color: #303133;
+     font-weight: 500;
+}
+
+.common_list_ctain * {
+  text-decoration: none;
+  font-size: 16px;
+  color: #6a6d72;
+}
+.common_list_ctain .head * {
+  font-size: 18px;
+  color: #303133;
+  font-weight: 500;
+}
+/* 分页 */
+.pl_paging {
+  display: flex;
+  padding:60px 0px;
+  justify-content: center;
+  font-size: 18px;
+  color: #555555;
+  font-family: MicrosoftYaHeiLight;
+  line-height: 30px;
+  text-align: center;
+  user-select: none;
+}
+.pl_paging > div:not(:last-child) {
+  margin-right: 25px;
+}
+.pl_paging > div:nth-child(1),
+.pl_paging > div:nth-child(2),
+.pl_paging > div:nth-child(3),
+.pl_paging > div:nth-child(4) {
+  cursor: pointer;
+}
+
+.pl_paging > div > span {
+  color: #104483;
+  min-width: 30px;
+  display: inline-block;
+  font-weight: bold;
+}
